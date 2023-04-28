@@ -1,0 +1,14 @@
+{
+  "name": "posts",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node ."
+  },
+  "dependencies": {
+    "glob": "^7.1.7",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  }
+}
