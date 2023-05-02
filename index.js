@@ -1,14 +1,16 @@
-const fs = require("fs");
-const glob = require("glob");
-const path = require("path");
-const _ = require("lodash");
+import fs from "fs";
+import path from "path";
+import glob from "glob";
+import _ from "lodash";
 
 const reTitle = /title:\s?(.*)/;
 const reSlideshow = /<slideshow( id="(.*)")*>/g;
 
-const dirs = glob.sync("public/*/*");
+const dirs = glob.sync("data/*/*");
 
 const host = "https://raw.githubusercontent.com/kg55kmr/posts/main";
+
+fs.mkdirSync("public", { recursive: true });
 
 let posts = dirs.map((dir) => {
   const content = fs
@@ -22,9 +24,9 @@ let posts = dirs.map((dir) => {
   const [year, month, day, slug = 1] = id.split("-");
   const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
   const date = { year, month, day };
-  const route = `${host}/${dir}`;
-  const md = `${route}/index.md`;
-  const thumbnail = thumbnailExists ? `${route}/thumbnail.jpg` : undefined;
+  const url = `${host}/${dir}`;
+  const md = `${url}/index.md`;
+  const thumbnail = thumbnailExists ? `${url}/thumbnail.jpg` : undefined;
   const siteRoute = `/posts/view?id=${id}&kind=${kind}`;
   const slideshows = extractSlideshows(kind, id, content);
 
@@ -35,7 +37,7 @@ let posts = dirs.map((dir) => {
     titleLower,
     date,
     slug,
-    route,
+    url,
     md,
     thumbnail,
     siteRoute,
