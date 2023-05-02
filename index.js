@@ -8,7 +8,7 @@ const reSlideshow = /<slideshow( id="(.*)")*>/g;
 
 const dirs = glob.sync("public/*/*");
 
-const host = "https://posts.kg55kmr.pp.ua";
+const host = "https://raw.githubusercontent.com/kg55kmr/posts/main";
 
 let posts = dirs.map((dir) => {
   const content = fs
@@ -21,9 +21,6 @@ let posts = dirs.map((dir) => {
   const titleLower = title.toLowerCase();
   const [year, month, day, slug = 1] = id.split("-");
   const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
-
-  dir = dir.replace("public/", "");
-
   const date = { year, month, day };
   const route = `${host}/${dir}`;
   const md = `${route}/index.md`;
