@@ -12,4 +12,4 @@ title: Свято Миколая
 
 <youtube id="Tg52TD42eR4"></youtube>
 
-<slideshow id="72157688524634902"></slideshow>
+<slideshow id="_/72157688524634902"></slideshow>

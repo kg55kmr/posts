@@ -7,4 +7,4 @@ title: Засідання інтелектуального клубу «Неві
 
 <youtube id="2f30N1utQP0"></youtube>
 
-<slideshow id="72157691158171851"></slideshow>
+<slideshow id="_/72157691158171851"></slideshow>

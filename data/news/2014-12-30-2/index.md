@@ -2,4 +2,4 @@
 title: Зимова казка в КЗШ I-III ст. № 55
 ---
 
-<slideshow id="72157650003062722"></slideshow>
+<slideshow id="_/72157650003062722"></slideshow>

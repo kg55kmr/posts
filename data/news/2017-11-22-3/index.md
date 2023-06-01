@@ -12,4 +12,4 @@ title: Відкритий урок у 3-Б класі
 Ми - одна сім'я.
 </pre>
 
-<slideshow id="72157689577237071"></slideshow>
+<slideshow id="_/72157689577237071"></slideshow>

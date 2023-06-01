@@ -30,4 +30,4 @@ tags: [edu]
 Рясніє завжди Ваше втілення бажань.
 </pre>
 
-<slideshow id="72157699810145672"></slideshow>
+<slideshow id="_/72157699810145672"></slideshow>

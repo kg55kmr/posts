@@ -18,4 +18,4 @@ title: Сійся-родися серед народу, Віра, Надія, Л
 
 <youtube id="P3FbIenP5og"></youtube>
 
-<slideshow id="72157662694830197"></slideshow>
+<slideshow id="_/72157662694830197"></slideshow>

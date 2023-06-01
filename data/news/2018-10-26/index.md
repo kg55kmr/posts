@@ -16,4 +16,4 @@ tags: [edu]
 Це пам’ять, яку залишила війна.
 </pre>
 
-<slideshow id="72157701875104671"></slideshow>
+<slideshow id="_/72157701875104671"></slideshow>

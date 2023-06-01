@@ -13,9 +13,9 @@ title: Дитячий табір "Веселка"
 - Гра «Веселі Робінзони».
 - Конкурс малюнків «Малюю природу свого краю».
 
-<slideshow id="72157646841579054"></slideshow>
+<slideshow id="_/72157646841579054"></slideshow>
 
-<slideshow id="72157649163151481"></slideshow>
+<slideshow id="_/72157649163151481"></slideshow>
 
 <gallery>
 <img src="1.webp" alt="">

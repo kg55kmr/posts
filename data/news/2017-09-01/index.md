@@ -56,6 +56,6 @@ title: Перший дзвоник
 
 <youtube id="fx7dvgj8XQc"></youtube>
 
-<slideshow id="72157686039005053"></slideshow>
+<slideshow id="_/72157686039005053"></slideshow>
 
-<slideshow id="72157684743864382"></slideshow>
+<slideshow id="_/72157684743864382"></slideshow>

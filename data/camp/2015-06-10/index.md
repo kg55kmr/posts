@@ -12,5 +12,5 @@ title: Дитячий табір "Веселка"
 - Майстерна орігамі
 - Незвичайна дискотека
 
-<slideshow id="72157654281151456"></slideshow>
-<slideshow id="72157652013729404"></slideshow>
+<slideshow id="_/72157654281151456"></slideshow>
+<slideshow id="_/72157652013729404"></slideshow>
