@@ -71,7 +71,7 @@ function extractSlideshows(kind, id, data) {
   const slideshows = [];
   let m;
 
-  id = `${kind}-${id}`;
+  id = `${kind}/${id}`;
 
   while ((m = reSlideshow.exec(data)) !== null) {
     switch (true) {
