@@ -11,4 +11,4 @@ tags: [edu]
 
 <youtube id="injhJLatVLY"></youtube>
 
-<slideshow id="_/72157691458093540"></slideshow>
+<slideshow id="_/72157691458093540" />

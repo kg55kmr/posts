@@ -22,4 +22,4 @@ tags: [edu]
 Щоб людству втіху дарувати!
 </pre>
 
-<slideshow></slideshow>
+<slideshow />

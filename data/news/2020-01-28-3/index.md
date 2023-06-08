@@ -6,4 +6,4 @@ title: Шкільне життя - круті перерви
 
 <youtube id="m5f-FTFZ1QA"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

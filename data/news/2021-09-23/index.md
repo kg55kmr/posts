@@ -6,4 +6,4 @@ title: Засідання лідерів ДО "Первоцвіт"
 
 <youtube id="Sm-ND907u9w"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

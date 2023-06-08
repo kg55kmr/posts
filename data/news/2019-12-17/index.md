@@ -14,4 +14,4 @@ title: #КласичніВечорниці «Етно-паті в українс
 
 <youtube id="B0glGVXRwUM"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

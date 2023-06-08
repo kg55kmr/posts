@@ -31,4 +31,4 @@ tags: [edu]
 
 <youtube id="1EIf6aw_vIw"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

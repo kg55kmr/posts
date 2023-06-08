@@ -17,4 +17,4 @@ tags: [edu]
 
 Участь у всеукраїнській акції «Запали свічку пам’яті».
 
-<slideshow></slideshow>
+<slideshow />

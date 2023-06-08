@@ -13,4 +13,4 @@ tags: [edu]
 
 Захищати птахів – це людська справа.
 
-<slideshow></slideshow>
+<slideshow />

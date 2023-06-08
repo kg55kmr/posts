@@ -10,4 +10,4 @@ title: КЗШ №55 КМР ДО відзначає День Соборності
 
 <youtube id="BoXvZ3EL2PU"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

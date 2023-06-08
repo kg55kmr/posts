@@ -10,4 +10,4 @@ title: Вшанування пам'яті Героїв Небесної Сотн
 
 <youtube id="be_o0eqJGx4"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

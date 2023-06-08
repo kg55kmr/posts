@@ -6,4 +6,4 @@ title: У КЗШ №55 КМР ДО відбулась акція «Рушник 
 
 <youtube id="fu7f2uz32a4"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

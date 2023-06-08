@@ -6,4 +6,4 @@ title: Осінні канікули (9-А)
 
 Канікули - це відпочинок з користю.
 
-<slideshow></slideshow>
+<slideshow />

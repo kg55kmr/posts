@@ -16,4 +16,4 @@ title: ОНЛАЙН-СВЯТО ОСТАННІЙ ДЗВОНИК - 2022
 
 <youtube id="tPtTvR2FDys"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

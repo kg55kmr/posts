@@ -10,4 +10,4 @@ title: Відкриття тренінгового кабінету
 
 <youtube id="vzSCvNKG-iA"></youtube>
 
-<slideshow id="_/72157680457554996"></slideshow>
+<slideshow id="_/72157680457554996" />

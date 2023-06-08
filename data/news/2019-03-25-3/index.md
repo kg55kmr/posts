@@ -12,4 +12,4 @@ tags: [edu]
 Зігріє Ваш життєвий шлях!
 </pre>
 
-<slideshow></slideshow>
+<slideshow />

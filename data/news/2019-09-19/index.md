@@ -13,4 +13,4 @@ tags: [edu]
 
 Бажаємо всій нашій дружній шкільній родині миру та спокою.
 
-<slideshow></slideshow>
+<slideshow />

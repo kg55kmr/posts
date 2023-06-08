@@ -7,4 +7,4 @@ tags: [edu]
 
 Канікули - це чудово, прекрасна пора дитинства!
 
-<slideshow></slideshow>
+<slideshow />

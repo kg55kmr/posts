@@ -6,32 +6,32 @@ title: Єдина виховна година
 
 1-В клас
 
-<slideshow id="*1v"></slideshow>
+<slideshow id="*1v" />
 
 2-А клас
 
-<slideshow id="*2a"></slideshow>
+<slideshow id="*2a" />
 
 2-Б клас
 
-<slideshow id="*2b"></slideshow>
+<slideshow id="*2b" />
 
 З нагоди Всесвітнього дня охорони праці в онлайн-режимі 3-Б клас провів виховну годину «Збережи себе сам». Обговорили поведінку персонажів з уривків мультфільмів. Творчо мислили та виявляли фантазію в малюнках. Учні поділилися традиціями збереження здоров'я в родині.
 
-<slideshow id="*3b"></slideshow>
+<slideshow id="*3b" />
 
 6-В клас
 
-<slideshow id="*6v"></slideshow>
+<slideshow id="*6v" />
 
 8-А клас
 
-<slideshow id="*8a"></slideshow>
+<slideshow id="*8a" />
 
 9-А клас
 
-<slideshow id="*9a"></slideshow>
+<slideshow id="*9a" />
 
 11-А клас
 
-<slideshow id="*11a"></slideshow>
+<slideshow id="*11a" />

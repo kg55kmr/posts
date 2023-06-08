@@ -8,4 +8,4 @@ title: Всесвітній день щедрості
 
 <youtube id="BnclhK1O99k"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

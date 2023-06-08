@@ -24,4 +24,4 @@ tags: [edu]
 Неповторної диво краси.
 </pre>
 
-<slideshow></slideshow>
+<slideshow />

@@ -7,4 +7,4 @@ tags: [edu]
 
 Бажаємо наступних перемог!
 
-<slideshow></slideshow>
+<slideshow />

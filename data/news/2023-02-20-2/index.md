@@ -13,4 +13,4 @@ title: Благодійний ярмарок
 
 Слава Україні! Героям Слава!
 
-<slideshow></slideshow>
+<slideshow />

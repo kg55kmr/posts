@@ -11,4 +11,4 @@ tags: [edu]
 
 Серед 10-11 класів І місце посіла команда 11-А класу.
 
-<slideshow></slideshow>
+<slideshow />

@@ -16,76 +16,76 @@ title: Останній дзвоник 2021
 
 Клас 1-А
 
-<slideshow id="*1a"></slideshow>
+<slideshow id="*1a" />
 
 Клас 1-Б
 
-<slideshow id="*1b"></slideshow>
+<slideshow id="*1b" />
 
 Клас 2-А
 
-<slideshow id="*2a"></slideshow>
+<slideshow id="*2a" />
 
 Клас 2-Б
 
-<slideshow id="*2b"></slideshow>
+<slideshow id="*2b" />
 
 Клас 3-А
 
-<slideshow id="*3a"></slideshow>
+<slideshow id="*3a" />
 
 Клас 3-Б
 
-<slideshow id="*3b"></slideshow>
+<slideshow id="*3b" />
 
 Клас 4-А
 
-<slideshow id="*4a"></slideshow>
+<slideshow id="*4a" />
 
 Клас 4-Б
 
-<slideshow id="*4b"></slideshow>
+<slideshow id="*4b" />
 
 Клас 5-А
 
-<slideshow id="*5a"></slideshow>
+<slideshow id="*5a" />
 
 Клас 5-Б
 
-<slideshow id="*5b"></slideshow>
+<slideshow id="*5b" />
 
 Клас 6-А
 
-<slideshow id="*6a"></slideshow>
+<slideshow id="*6a" />
 
 Клас 6-Б
 
-<slideshow id="*6b"></slideshow>
+<slideshow id="*6b" />
 
 Клас 6-В
 
-<slideshow id="*6v"></slideshow>
+<slideshow id="*6v" />
 
 Клас 8-А
 
-<slideshow id="*8a"></slideshow>
+<slideshow id="*8a" />
 
 Клас 8-Б
 
-<slideshow id="*8b"></slideshow>
+<slideshow id="*8b" />
 
 Клас 9-А
 
-<slideshow id="*9a"></slideshow>
+<slideshow id="*9a" />
 
 Клас 9-Б
 
-<slideshow id="*9b"></slideshow>
+<slideshow id="*9b" />
 
 Клас 10-А
 
-<slideshow id="*10a"></slideshow>
+<slideshow id="*10a" />
 
 Клас 11-А
 
-<slideshow id="*11a"></slideshow>
+<slideshow id="*11a" />

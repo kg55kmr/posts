@@ -6,4 +6,4 @@ title: День Єднання
 
 <youtube id="4w78WVjWDBU"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

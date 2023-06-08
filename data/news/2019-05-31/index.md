@@ -17,4 +17,4 @@ tags: [edu]
 
 <youtube id="ftkDJ3ox52c"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

@@ -13,6 +13,6 @@ title: Осінній ярмарок
 
 Усі учасники отримали велике задоволення.
 
-<slideshow id="_/72157673249601331"></slideshow>
+<slideshow id="_/72157673249601331" />
 
 <youtube id="5PAilWG2npk"></youtube>

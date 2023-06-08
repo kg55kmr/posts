@@ -23,6 +23,6 @@ title: День Соборності
 - Historic room «Соборність України: від ідеї до сьогодення»
 - поетична естафета «В єдності наша сила»
 
-<slideshow></slideshow>
+<slideshow />
 
 <youtube id="2U_kCkUTpX8"></youtube>

@@ -20,4 +20,4 @@ tags: [edu]
 
 <youtube id="LkI9wPqH-QE"></youtube>
 
-<slideshow id="_/72157690813991160"></slideshow>
+<slideshow id="_/72157690813991160" />

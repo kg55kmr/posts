@@ -10,6 +10,6 @@ title: Безпечна дорога від дому до школи
 
 Безпека наших дітей – запорука успішного міста.
 
-<slideshow></slideshow>
+<slideshow />
 
 <youtube id="m95DAod1QDE"></youtube>

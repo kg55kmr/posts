@@ -13,4 +13,4 @@ title: Квест «Ми – єдині!»
 
 <youtube id="5p9cgaQMcz4"></youtube>
 
-<slideshow id="_/72157688022425100"></slideshow>
+<slideshow id="_/72157688022425100" />

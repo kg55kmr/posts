@@ -8,4 +8,4 @@ title: Осінні канікули (3-Б)
 
 [Прогулянка з другом](https://www.youtube.com/watch?v=M8MSUy6Z23c)
 
-<slideshow></slideshow>
+<slideshow />

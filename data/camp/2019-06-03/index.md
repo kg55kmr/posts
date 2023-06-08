@@ -13,4 +13,4 @@ tags: [camp]
 
 <youtube id="HzYBHR4aqTw"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

@@ -10,4 +10,4 @@ title: Святкування Василя
 
 <youtube id="-PIcXW2LWQI"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

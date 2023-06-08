@@ -30,4 +30,4 @@ title: Заняття «Насильству – ні»
 Можна сміло іти в майбуття.
 </pre>
 
-<slideshow></slideshow>
+<slideshow />

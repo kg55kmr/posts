@@ -17,4 +17,4 @@ title: 74 річниця визволення від фашистських за
 
 <youtube id="Nd480ul6Qgw"></youtube>
 
-<slideshow id="_/72157693724913575"></slideshow>
+<slideshow id="_/72157693724913575" />

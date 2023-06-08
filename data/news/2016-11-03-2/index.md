@@ -15,4 +15,4 @@ title: День відкритих дверей для майбутніх пер
 
 <youtube id="N1PGvCxhheU"></youtube>
 
-<slideshow id="_/72157674908312940"></slideshow>
+<slideshow id="_/72157674908312940" />

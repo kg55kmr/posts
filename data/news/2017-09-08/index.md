@@ -15,6 +15,6 @@ title: Олімпійські ігри
 
 <youtube id="wqWtNUzLZTA"></youtube>
 
-<slideshow id="_/72157686336576713"></slideshow>
+<slideshow id="_/72157686336576713" />
 
-<slideshow id="_/72157686304188314"></slideshow>
+<slideshow id="_/72157686304188314" />

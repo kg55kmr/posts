@@ -10,4 +10,4 @@ title: Проєкт Flowers4school
 
 Ми дуже щасливі, що наша гімназія бере участь у Всеукраїнському проєкті Flowers4School.
 
-<slideshow></slideshow>
+<slideshow />

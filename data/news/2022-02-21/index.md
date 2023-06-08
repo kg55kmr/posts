@@ -19,4 +19,4 @@ title: До 90-річчя створення Дніпропетровської 
 
 <youtube id="2_tXPMxwcak"></youtube>
 
-<slideshow></slideshow>
+<slideshow />

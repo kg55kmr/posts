@@ -9,4 +9,4 @@ tags: [edu]
 
 <youtube id="A5xRCfAZ1Os"></youtube>
 
-<slideshow></slideshow>
+<slideshow />
