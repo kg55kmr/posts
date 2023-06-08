@@ -4,7 +4,7 @@ import glob from "glob";
 import _ from "lodash";
 
 const reTitle = /title:\s?(.*)/;
-const reSlideshow = /<slideshow( id="(.*)")*>/g;
+const reSlideshow = /<slideshow( id="(.*)")* \/>/g;
 
 const dirs = glob.sync("data/*/*");
 
