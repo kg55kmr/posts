@@ -27,7 +27,6 @@ let posts = dirs.map((dir) => {
   const url = `${host}/${dir}`;
   const md = `${url}/index.md`;
   const thumbnail = thumbnailExists ? `${url}/thumbnail.jpg` : undefined;
-  const siteRoute = `/posts/view?id=${id}&kind=${kind}`;
   const slideshows = extractSlideshows(kind, id, content);
 
   return {
@@ -40,7 +39,6 @@ let posts = dirs.map((dir) => {
     url,
     md,
     thumbnail,
-    siteRoute,
     slideshows,
   };
 });
