@@ -1,5 +1,4 @@
 ---
-tags: [edu]
 title: Участь у міському конкурс англійської пісні «My favorite English song»
 ---
 

@@ -1,5 +1,4 @@
 ---
-tags: [library, edu]
 title: Майстер-клас “Hand make”
 ---
 

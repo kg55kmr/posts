@@ -1,5 +1,4 @@
 ---
-tags: [edu]
 title: Загальношкільний захід «Halloween party»
 ---
 
