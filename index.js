@@ -56,9 +56,6 @@ fs.writeFileSync(
     switch (k) {
       case "slideshows":
         return undefined;
-
-      case "pinned":
-        return undefined;
     }
 
     return v;
