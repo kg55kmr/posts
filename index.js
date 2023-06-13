@@ -4,6 +4,7 @@ import glob from "glob";
 import _ from "lodash";
 
 const reTitle = /title:\s?(.*)/;
+const rePinned = /pinned:\s?(.*)/;
 const reSlideshow = /<slideshow( id="(.*)")* \/>/g;
 
 const dirs = glob.sync("data/*/*");
@@ -21,6 +22,7 @@ let posts = dirs.map((dir) => {
   const id = path.basename(dir.trim());
   const title = reTitle.exec(content[0])[1];
   const titleLower = title.toLowerCase();
+  const pinned = rePinned.exec(content[0])?.at(1) && true;
   const [year, month, day, slug = 1] = id.split("-");
   const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
   const date = { year, month, day };
@@ -34,6 +36,7 @@ let posts = dirs.map((dir) => {
     id,
     title,
     titleLower,
+    pinned,
     date,
     slug,
     url,
@@ -44,7 +47,9 @@ let posts = dirs.map((dir) => {
 });
 
 posts.reverse();
-posts = _.groupBy(posts, (p) => p.kind);
+const pinned = _.groupBy(posts, (p) => p.pinned);
+
+posts = _.groupBy(pinned[undefined], (p) => p.kind);
 
 // posts generate
 
