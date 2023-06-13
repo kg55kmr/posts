@@ -2,9 +2,8 @@ import fs from "fs";
 import path from "path";
 import glob from "glob";
 import _ from "lodash";
+import matter from "gray-matter";
 
-const reTitle = /title:\s?(.*)/;
-const rePinned = /pinned:\s?(.*)/;
 const reSlideshow = /<slideshow( id="(.*)")* \/>/g;
 
 const dirs = glob.sync("data/*/*");
@@ -14,15 +13,13 @@ const host = "https://raw.githubusercontent.com/kg55kmr/posts/main";
 fs.mkdirSync("public", { recursive: true });
 
 let posts = dirs.map((dir) => {
-  const content = fs
-    .readFileSync(dir + "/index.md", "utf8")
-    .split("---\r\n\r\n");
+  const { data, content } = matter(fs.readFileSync(dir + "/index.md", "utf8"));
 
   const kind = path.basename(path.dirname(dir));
   const id = path.basename(dir.trim());
-  const title = reTitle.exec(content[0])[1];
+  const title = data.title;
   const titleLower = title.toLowerCase();
-  const pinned = rePinned.exec(content[0])?.at(1) && true;
+  const pinned = data.pinned;
   const [year, month, day, slug = 1] = id.split("-");
   const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
   const date = { year, month, day };
@@ -47,9 +44,9 @@ let posts = dirs.map((dir) => {
 });
 
 posts.reverse();
-const pinned = _.groupBy(posts, (p) => p.pinned);
-
-posts = _.groupBy(pinned[undefined], (p) => p.kind);
+posts = _.mapValues(_.groupBy(posts, "kind"), (p) =>
+  _.groupBy(p, (p) => (p.pinned ? "pinned" : "items"))
+);
 
 // posts generate
 
@@ -59,6 +56,9 @@ fs.writeFileSync(
     switch (k) {
       case "slideshows":
         return undefined;
+
+      case "pinned":
+        return undefined;
     }
 
     return v;
@@ -67,7 +67,10 @@ fs.writeFileSync(
 
 // album generate
 
-const album = posts.news.filter((post) => post.slideshows.length > 0);
+const album = [
+  ...(posts.news.pinned?.filter((post) => post.slideshows.length > 0) ?? []),
+  ...posts.news.items.filter((post) => post.slideshows.length > 0),
+];
 fs.writeFileSync("public/album.json", JSON.stringify(album));
 
 function extractSlideshows(kind, id, data) {
