@@ -52,4 +52,4 @@ title: "День п'ятий"
 
 <slideshow id="*7" />
 
-<youtube id="rUGyTPSY7KA"></youtube>
+<youtube id="rUGyTPSY7KA" />

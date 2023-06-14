@@ -2,4 +2,4 @@
 title: Безпечні зимові канікули
 ---
 
-<youtube id="-CvZOpoEv0w"></youtube>
+<youtube id="-CvZOpoEv0w" />

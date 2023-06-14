@@ -2,4 +2,4 @@
 title: Підсумок участі в міській туристсько-краєзнавчій акції «Серпантин казкових подорожей»
 ---
 
-<youtube id="KNifCvrLZmo"></youtube>
+<youtube id="KNifCvrLZmo" />

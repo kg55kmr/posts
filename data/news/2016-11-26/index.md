@@ -6,4 +6,4 @@ title: Заходи до Дня пам’яті жертв голодомору
 
 <slideshow id="_/72157675830073940" />
 
-<youtube id="NoIUGQsU6ys"></youtube>
+<youtube id="NoIUGQsU6ys" />

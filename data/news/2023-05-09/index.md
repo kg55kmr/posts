@@ -6,4 +6,4 @@ title: Заходи національно-патріотичного спрям
 
 <slideshow />
 
-<youtube id="wA1t7QVnZ28"></youtube>
+<youtube id="wA1t7QVnZ28" />

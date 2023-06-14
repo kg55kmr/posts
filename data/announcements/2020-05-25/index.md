@@ -36,7 +36,7 @@ title: Попередження домашнього насильства
 Чат-бот #ДійПротиНасильства [https://t.me/police_helpbot](https://t.me/police_helpbot)  
 Якщо ви страждаєте від насильства, не мовчіть! Звертайтесь за допомогою!
 
-<youtube id="2o3JbtG4kn8"></youtube>
+<youtube id="2o3JbtG4kn8" />
 
 ![](1.jpg)
 ![](2.jpg)

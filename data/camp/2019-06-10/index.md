@@ -53,4 +53,4 @@ title: День шостий
 
 <slideshow id="*7" />
 
-<youtube id="g4Un-npsHkQ"></youtube>
+<youtube id="g4Un-npsHkQ" />

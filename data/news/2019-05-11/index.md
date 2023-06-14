@@ -10,4 +10,4 @@ title: Ода Тернівському району
 
 З Днем народження!
 
-<youtube id="RItnu2T_6FI"></youtube>
+<youtube id="RItnu2T_6FI" />

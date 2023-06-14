@@ -2,4 +2,4 @@
 title: Дії у разі хімічної атаки
 ---
 
-<pdf src="info.pdf"></pdf>
+<pdf src="info.pdf" />

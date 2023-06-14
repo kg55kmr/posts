@@ -2,4 +2,4 @@
 title: "Європа - наш спільний дім"
 ---
 
-<youtube id="4n9cNqc_-K4"></youtube>
+<youtube id="4n9cNqc_-K4" />

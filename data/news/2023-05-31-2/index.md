@@ -10,4 +10,4 @@ title: Останній дзвоник
 
 <slideshow />
 
-<youtube id="8NhNiUUA8ug"></youtube>
+<youtube id="8NhNiUUA8ug" />

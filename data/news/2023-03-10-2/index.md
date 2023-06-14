@@ -12,16 +12,16 @@ title: Декламування поезії Т.Г. Шевченка
 
 Наближаємо перемогу разом! Ми все зможемо й здолаємо ворога! Слава Україні! Героям Слава!
 
-<youtube id="d9dUgQ8HpWI"></youtube>
+<youtube id="d9dUgQ8HpWI" />
 
-<youtube id="DFefAZ3X1WY"></youtube>
+<youtube id="DFefAZ3X1WY" />
 
-<youtube id="xzFv4QaTjCo"></youtube>
+<youtube id="xzFv4QaTjCo" />
 
-<youtube id="0nl4jwl6CEU"></youtube>
+<youtube id="0nl4jwl6CEU" />
 
-<youtube id="Hre6VnaHJNY"></youtube>
+<youtube id="Hre6VnaHJNY" />
 
-<youtube id="clpZpYTai5g"></youtube>
+<youtube id="clpZpYTai5g" />
 
-<youtube id="8q_IYhj18p8"></youtube>
+<youtube id="8q_IYhj18p8" />

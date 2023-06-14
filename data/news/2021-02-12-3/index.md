@@ -2,4 +2,4 @@
 title: Рій "Петра Сагайдачного". "І знову серце зустріло весну"
 ---
 
-<youtube id="w67Y-NoWNMY"></youtube>
+<youtube id="w67Y-NoWNMY" />

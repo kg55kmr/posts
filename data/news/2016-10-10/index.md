@@ -12,4 +12,4 @@ title: Волонтерський проект "Небайдужі серця"
 
 <slideshow id="_/72157675102269775" />
 
-<youtube id="ggTmQDvr8FE"></youtube>
+<youtube id="ggTmQDvr8FE" />

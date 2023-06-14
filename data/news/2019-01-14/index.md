@@ -8,6 +8,6 @@ title: Свято Василя
 
 Дуже приємно, що школярі продовжують українські звичаї та традиції свого народу.
 
-<youtube id="QV7lMFgwrMQ"></youtube>
+<youtube id="QV7lMFgwrMQ" />
 
 <slideshow />

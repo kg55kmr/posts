@@ -24,4 +24,4 @@ title: День четвертий
 
 <slideshow id="*4" />
 
-<youtube id="tkP64uzS420"></youtube>
+<youtube id="tkP64uzS420" />

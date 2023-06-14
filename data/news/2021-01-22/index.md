@@ -25,4 +25,4 @@ title: День Соборності
 
 <slideshow />
 
-<youtube id="2U_kCkUTpX8"></youtube>
+<youtube id="2U_kCkUTpX8" />

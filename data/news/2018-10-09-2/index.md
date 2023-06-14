@@ -8,4 +8,4 @@ title: Міська рекламно-просвітницька кампанія
 
 <slideshow id="_/72157702093170294" />
 
-<youtube id="2ymGtPGhfpU"></youtube>
+<youtube id="2ymGtPGhfpU" />

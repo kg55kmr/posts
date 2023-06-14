@@ -10,4 +10,4 @@ title: Всеукраїнський конкурс колективів екол
 
 <slideshow id="_/72157680813238086" />
 
-<youtube id="_8w_7stUpiQ"></youtube>
+<youtube id="_8w_7stUpiQ" />

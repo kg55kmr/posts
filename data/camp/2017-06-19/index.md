@@ -48,4 +48,4 @@ title: День дванадцятий
 
 <slideshow id="_/72157682269245572" />
 
-<youtube id="j-ZDFstsEN4"></youtube>
+<youtube id="j-ZDFstsEN4" />

@@ -2,7 +2,7 @@
 title: КЗШ №55 КМР ДО відзначає День Державного прапора України
 ---
 
-<youtube id="fSwV8pHMkl0"></youtube>
+<youtube id="fSwV8pHMkl0" />
 
 Шановні батьки та учні!
 

@@ -22,6 +22,6 @@ title: Шкільні змагання "Сокіл" ("Джура")
 
 Зі святом вас, шановні захисники України.
 
-<youtube id="P1gw3EELj3A"></youtube>
+<youtube id="P1gw3EELj3A" />
 
 <slideshow id="_/72157696476070240" />

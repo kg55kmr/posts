@@ -2,4 +2,4 @@
 title: Евакуація
 ---
 
-<pdf src="info.pdf"></pdf>
+<pdf src="info.pdf" />

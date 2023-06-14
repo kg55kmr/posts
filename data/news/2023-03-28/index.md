@@ -10,4 +10,4 @@ title: Юні інспектори дорожнього руху
 
 Любі друзі, будьте обережні!
 
-<youtube id="YlZVNY5XVBE"></youtube>
+<youtube id="YlZVNY5XVBE" />

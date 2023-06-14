@@ -8,11 +8,11 @@ title: Конкурс читців віршів Шевченка серед уч
 
 <slideshow />
 
-<youtube id="ThsKYBHOk1A"></youtube>
+<youtube id="ThsKYBHOk1A" />
 
-<youtube id="8sGSc_EDYg0"></youtube>
+<youtube id="8sGSc_EDYg0" />
 
-<youtube id="RUv2D2uNhnI"></youtube>
+<youtube id="RUv2D2uNhnI" />
 
 <gallery>
 <img src="1.jpg" alt="">

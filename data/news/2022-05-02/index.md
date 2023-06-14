@@ -2,4 +2,4 @@
 title: Ми діти Сталевого серця України, з міста Кривого Рогу КЗШ №55 КМР ДО "Ми за мир"
 ---
 
-<youtube id="velBl_BzX3I"></youtube>
+<youtube id="velBl_BzX3I" />

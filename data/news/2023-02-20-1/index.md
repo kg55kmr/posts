@@ -8,4 +8,4 @@ title: Вшанування пам’яті Героїв Небесної Сот
 
 <slideshow />
 
-<pdf src="./presentation.pdf"></pdf>
+<pdf src="./presentation.pdf" />

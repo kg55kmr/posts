@@ -14,4 +14,4 @@ title: Шкільний ярмарок
 
 <slideshow id="_/72157695978296190" />
 
-<youtube id="Gz3hGTzhPRo"></youtube>
+<youtube id="Gz3hGTzhPRo" />

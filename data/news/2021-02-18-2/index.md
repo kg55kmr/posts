@@ -12,4 +12,4 @@ title: Безпечна дорога від дому до школи
 
 <slideshow />
 
-<youtube id="m95DAod1QDE"></youtube>
+<youtube id="m95DAod1QDE" />

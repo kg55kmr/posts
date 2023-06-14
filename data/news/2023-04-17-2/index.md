@@ -6,5 +6,5 @@ title: Всеукраїнський літературний дитячо-юна
 
 Бажаємо перемоги та поповнити новими здобутками скарбницю творчих досягнень учнів нашої гімназії!
 
-<youtube id="POZjoTioA4M"></youtube>
-<youtube id="NNpTooXBiAY"></youtube>
+<youtube id="POZjoTioA4M" />
+<youtube id="NNpTooXBiAY" />

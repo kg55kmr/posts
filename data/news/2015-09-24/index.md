@@ -6,4 +6,4 @@ title: Ярмарка
 
 <slideshow id="_/72157656742442824" />
 
-<youtube id="VH8qeeBwitg"></youtube>
+<youtube id="VH8qeeBwitg" />

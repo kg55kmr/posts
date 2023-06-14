@@ -2,4 +2,4 @@
 title: Як діяти у кризовій ситуації
 ---
 
-<pdf src="info.pdf"></pdf>
+<pdf src="info.pdf" />

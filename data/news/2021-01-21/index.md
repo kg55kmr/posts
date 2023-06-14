@@ -2,4 +2,4 @@
 title: Вітання рою Петра Сагайдачного з Днем Соборності України 2021
 ---
 
-<youtube id="Kfx5UgZl6NI"></youtube>
+<youtube id="Kfx5UgZl6NI" />

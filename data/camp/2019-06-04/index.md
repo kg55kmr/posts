@@ -24,4 +24,4 @@ title: День другий
 
 <slideshow id="*4" />
 
-<youtube id="X98ZSlfM72E"></youtube>
+<youtube id="X98ZSlfM72E" />

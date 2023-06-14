@@ -14,4 +14,4 @@ title: Осінній ярмарок
 
 <slideshow id="_/72157673249601331" />
 
-<youtube id="5PAilWG2npk"></youtube>
+<youtube id="5PAilWG2npk" />

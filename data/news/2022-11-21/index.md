@@ -8,5 +8,5 @@ title: День Гідності та Свободи
 
 Слава Україні! Героям слава!
 
-<youtube id="3mY2Gv2-eOY"></youtube>
-<youtube id="meM2YzZDZpc"></youtube>
+<youtube id="3mY2Gv2-eOY" />
+<youtube id="meM2YzZDZpc" />

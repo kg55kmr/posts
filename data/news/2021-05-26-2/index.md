@@ -2,4 +2,4 @@
 title: Привітання директора КЗШ №55 КМР ДО зі святом Останнього дзвоника 2021
 ---
 
-<youtube id="WAR3Fxyn7GA"></youtube>
+<youtube id="WAR3Fxyn7GA" />

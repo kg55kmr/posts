@@ -2,4 +2,4 @@
 title: Випускний вечір 2017
 ---
 
-<youtube id="hpvdG-bBcRI"></youtube>
+<youtube id="hpvdG-bBcRI" />

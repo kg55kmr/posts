@@ -2,4 +2,4 @@
 title: Територія боротьби з булінгом
 ---
 
-<youtube id="WI-6nLRFJJw"></youtube>
+<youtube id="WI-6nLRFJJw" />

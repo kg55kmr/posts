@@ -2,4 +2,4 @@
 title: "#подякаосвітянамкриворіжжя. Tik-Tok. Привітання від учнів КЗШ №55 КМР ДО з Днем працівників освіти"
 ---
 
-<youtube id="AQ4VVyN9w3Y"></youtube>
+<youtube id="AQ4VVyN9w3Y" />

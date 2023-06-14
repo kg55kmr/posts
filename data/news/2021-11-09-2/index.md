@@ -15,4 +15,4 @@ title: КЗШ №55 КМР ДО відзначає День українсько
 
 <slideshow />
 
-<youtube id="DZUX_2-vyZg"></youtube>
+<youtube id="DZUX_2-vyZg" />

@@ -32,4 +32,4 @@ title: День третій
 
 <slideshow id="*6" />
 
-<youtube id="ZwgYUXq7E0I"></youtube>
+<youtube id="ZwgYUXq7E0I" />

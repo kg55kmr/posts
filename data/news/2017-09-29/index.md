@@ -2,8 +2,8 @@
 title: День працівників освіти
 ---
 
-<youtube id="bAB2Z7SfPc0"></youtube>
+<youtube id="bAB2Z7SfPc0" />
 
 <br>
 
-<youtube id="oH06hB6fxt4"></youtube>
+<youtube id="oH06hB6fxt4" />

@@ -2,5 +2,5 @@
 title: З 6 квітня стартує проєкт "Всеукраїнська школа онлайн"
 ---
 
-<youtube id="0u8jO3s1yHc"></youtube>
+<youtube id="0u8jO3s1yHc" />
 ![](5-11.jpg)

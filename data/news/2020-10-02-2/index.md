@@ -43,9 +43,9 @@ title: День працівників освіти
 Наші святкові і щирі вітання!
 </pre>
 
-<youtube id="vyvxUQ-KAvU"></youtube>
+<youtube id="vyvxUQ-KAvU" />
 
-<youtube id="P4iQQ1fYqMM"></youtube>
+<youtube id="P4iQQ1fYqMM" />
 
 <pre>
 Шановні вчителі КЗШ №55 КМР ДО!
@@ -57,4 +57,4 @@ title: День працівників освіти
 Нехай життя буде сонцем зігріте.
 </pre>
 
-<youtube id="CVFFkEOGvvk"></youtube>
+<youtube id="CVFFkEOGvvk" />

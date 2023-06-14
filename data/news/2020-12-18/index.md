@@ -10,4 +10,4 @@ title: День святого Миколая
 
 Зі святом, і нехай цей день залишить тільки приємні спогади!
 
-<youtube id="zVur_fOsCQA"></youtube>
+<youtube id="zVur_fOsCQA" />
