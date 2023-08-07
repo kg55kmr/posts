@@ -1,5 +1,5 @@
 ﻿---
-title: Вакансія
+title: Вакансії
 pinned: true
 ---
 
