@@ -45,7 +45,7 @@ let posts = dirs.map((dir) => {
 
 posts.reverse();
 posts = _.mapValues(_.groupBy(posts, "kind"), (p) =>
-  _.groupBy(p, (p) => (p.pinned ? "pinned" : "items"))
+  _.groupBy(p, (p) => (p.pinned ? "pinned" : "items")),
 );
 
 // posts generate
@@ -59,7 +59,7 @@ fs.writeFileSync(
     }
 
     return v;
-  })
+  }),
 );
 
 // album generate
