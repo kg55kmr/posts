@@ -1,6 +1,6 @@
 ﻿---
 title: Вакансії
-pinned: true
+pin: true
 ---
 
 ![](image.jpg)
