@@ -19,7 +19,7 @@ let posts = dirs.map((dir) => {
   const id = path.basename(dir.trim());
   const title = data.title;
   const titleLower = title.toLowerCase();
-  const pinned = data.pinned;
+  const pin = data.pin;
   const [year, month, day, slug = 1] = id.split("-");
   const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
   const date = { year, month, day };
@@ -33,7 +33,7 @@ let posts = dirs.map((dir) => {
     id,
     title,
     titleLower,
-    pinned,
+    pin,
     date,
     slug,
     url,
@@ -45,7 +45,7 @@ let posts = dirs.map((dir) => {
 
 posts.reverse();
 posts = _.mapValues(_.groupBy(posts, "kind"), (p) =>
-  _.groupBy(p, (p) => (p.pinned ? "pinned" : "items")),
+  _.groupBy(p, (p) => (p.pin ? "pin" : "items")),
 );
 
 // posts generate
@@ -65,7 +65,7 @@ fs.writeFileSync(
 // album generate
 
 const album = [
-  ...(posts.news.pinned?.filter((post) => post.slideshows.length > 0) ?? []),
+  ...(posts.news.pin?.filter((post) => post.slideshows.length > 0) ?? []),
   ...posts.news.items.filter((post) => post.slideshows.length > 0),
 ];
 fs.writeFileSync("public/album.json", JSON.stringify(album));
