@@ -54,21 +54,14 @@ export default (host) => {
   ];
 
   return {
-    posts: JSON.stringify(
-      {
-        posts,
-        relativeUrl:
-          "https://raw.githubusercontent.com/kg55kmr/posts/main/data",
-      },
-      (k, v) => {
-        switch (k) {
-          case "slideshows":
-            return undefined;
-        }
-
-        return v;
+    posts: JSON.stringify(posts, (k, v) => {
+      switch (k) {
+        case "slideshows":
+          return undefined;
       }
-    ),
+
+      return v;
+    }),
     album: JSON.stringify(album),
   };
 
