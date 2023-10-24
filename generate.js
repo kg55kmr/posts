@@ -43,16 +43,14 @@ export default (host) => {
     };
   });
 
-  const data = {
-    ..._.mapValues(_.groupBy(posts, "kind"), (p) =>
-      _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
-    ),
-    // relative: "https://raw.githubusercontent.com/kg55kmr/posts/main/data",
-  };
+  const data = _.mapValues(_.groupBy(posts, "kind"), (p) =>
+    _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
+  );
+  // relative: "https://raw.githubusercontent.com/kg55kmr/posts/main/data",
 
   const album = [
-    ...(posts.news.pin?.filter((post) => post.slideshows.length > 0) ?? []),
-    ...posts.news.items.filter((post) => post.slideshows.length > 0),
+    ...(data.news.pin?.filter((post) => post.slideshows.length > 0) ?? []),
+    ...data.news.items.filter((post) => post.slideshows.length > 0),
   ];
 
   return {
