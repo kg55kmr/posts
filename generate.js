@@ -4,13 +4,15 @@ import { glob } from "glob";
 import _ from "lodash";
 import matter from "gray-matter";
 
-export default (host) => {
+export default (host, replace = false) => {
   const reSlideshow = /<slideshow( id="(.*)")* \/>/g;
   const dirs = glob.sync("data/*/*");
 
   fs.mkdirSync("public", { recursive: true });
 
   let posts = dirs.map((dir) => {
+    if (replace) dir = dir.replaceAll("\\", "/");
+
     const { data, content } = matter(
       fs.readFileSync(dir + "/index.md", "utf8")
     );
@@ -43,14 +45,17 @@ export default (host) => {
     };
   });
 
-  const data = _.mapValues(_.groupBy(posts, "kind"), (p) =>
-    _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
-  );
-  // relative: "https://raw.githubusercontent.com/kg55kmr/posts/main/data",
+  const data = {
+    posts: _.mapValues(_.groupBy(posts, "kind"), (p) =>
+      _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
+    ),
+    host,
+  };
 
   const album = [
-    ...(data.news.pin?.filter((post) => post.slideshows.length > 0) ?? []),
-    ...data.news.items.filter((post) => post.slideshows.length > 0),
+    ...(data.posts.news.pin?.filter((post) => post.slideshows.length > 0) ??
+      []),
+    ...data.posts.news.items.filter((post) => post.slideshows.length > 0),
   ];
 
   return {

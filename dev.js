@@ -1,7 +1,10 @@
 import express from "express";
+import cors from "cors";
 import generate from "./generate.js";
 
 const app = express();
+
+app.use(cors());
 
 app.get("/posts", (_req, res) => {
   const { posts } = response();
@@ -13,12 +16,12 @@ app.get("/album", (_req, res) => {
   res.send(album);
 });
 
-app.get("/data/*", (req, res) => {
-  res.send(req.url);
+app.get("/data/*", async (req, res) => {
+  res.sendFile(req.url.slice(1), { root: "." });
 });
 
 app.listen(1234);
 
 function response() {
-  return generate("https://localhost:1234");
+  return generate("http://localhost:1234", true);
 }
