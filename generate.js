@@ -43,10 +43,12 @@ export default (host) => {
     };
   });
 
-  //posts.reverse();
-  posts = _.mapValues(_.groupBy(posts, "kind"), (p) =>
-    _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
-  );
+  const data = {
+    posts: _.mapValues(_.groupBy(posts, "kind"), (p) =>
+      _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
+    ),
+    relative: "https://raw.githubusercontent.com/kg55kmr/posts/main/data",
+  };
 
   const album = [
     ...(posts.news.pin?.filter((post) => post.slideshows.length > 0) ?? []),
@@ -54,7 +56,7 @@ export default (host) => {
   ];
 
   return {
-    posts: JSON.stringify(posts, (k, v) => {
+    posts: JSON.stringify(data, (k, v) => {
       switch (k) {
         case "slideshows":
           return undefined;
