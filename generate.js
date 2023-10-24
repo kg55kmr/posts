@@ -49,7 +49,7 @@ export default (host, replace = false) => {
     posts: _.mapValues(_.groupBy(posts, "kind"), (p) =>
       _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
     ),
-    host,
+    host: `${host}/data`,
   };
 
   const album = [
