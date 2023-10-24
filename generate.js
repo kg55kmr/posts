@@ -44,10 +44,10 @@ export default (host) => {
   });
 
   const data = {
-    posts: _.mapValues(_.groupBy(posts, "kind"), (p) =>
+    ..._.mapValues(_.groupBy(posts, "kind"), (p) =>
       _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
     ),
-    relative: "https://raw.githubusercontent.com/kg55kmr/posts/main/data",
+    // relative: "https://raw.githubusercontent.com/kg55kmr/posts/main/data",
   };
 
   const album = [
