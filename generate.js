@@ -43,7 +43,7 @@ export default (host) => {
     };
   });
 
-  posts.reverse();
+  //posts.reverse();
   posts = _.mapValues(_.groupBy(posts, "kind"), (p) =>
     _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
   );
@@ -54,14 +54,21 @@ export default (host) => {
   ];
 
   return {
-    posts: JSON.stringify(posts, (k, v) => {
-      switch (k) {
-        case "slideshows":
-          return undefined;
-      }
+    posts: JSON.stringify(
+      {
+        posts,
+        relativeUrl:
+          "https://raw.githubusercontent.com/kg55kmr/posts/main/data",
+      },
+      (k, v) => {
+        switch (k) {
+          case "slideshows":
+            return undefined;
+        }
 
-      return v;
-    }),
+        return v;
+      }
+    ),
     album: JSON.stringify(album),
   };
 
