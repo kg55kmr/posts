@@ -46,7 +46,9 @@ export default (host, replace = false) => {
     };
   });
 
-  posts.sort((a, b) => b.sortId.localeCompare(a.sortId));
+  posts.sort((a, b) =>
+    b.sortId.localeCompare(a.sortId, undefined, { numeric: true }),
+  );
 
   const data = {
     posts: _.mapValues(_.groupBy(posts, "kind"), (p) =>
