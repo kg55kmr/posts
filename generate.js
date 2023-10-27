@@ -14,7 +14,7 @@ export default (host, replace = false) => {
     if (replace) dir = dir.replaceAll("\\", "/");
 
     const { data, content } = matter(
-      fs.readFileSync(dir + "/index.md", "utf8")
+      fs.readFileSync(dir + "/index.md", "utf8"),
     );
 
     const kind = path.basename(path.dirname(dir));
@@ -22,7 +22,8 @@ export default (host, replace = false) => {
     const title = data.title;
     const titleLower = title.toLowerCase();
     const pin = data.pin;
-    const [year, month, day, slug = 1] = id.split("-");
+    const sortId = data.id ? data.id : id;
+    const [year, month, day] = id.split("-");
     const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
     const date = { year, month, day };
     const url = `${host}/${dir}`;
@@ -36,8 +37,8 @@ export default (host, replace = false) => {
       title,
       titleLower,
       pin,
+      sortId,
       date,
-      slug,
       url,
       md,
       thumbnail,
@@ -45,9 +46,11 @@ export default (host, replace = false) => {
     };
   });
 
+  posts.sort((a, b) => b.sortId.localeCompare(a.sortId));
+
   const data = {
     posts: _.mapValues(_.groupBy(posts, "kind"), (p) =>
-      _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
+      _.groupBy(p, (p) => (p.pin ? "pin" : "items")),
     ),
     host: `${host}/data`,
   };
