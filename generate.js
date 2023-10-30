@@ -19,11 +19,11 @@ export default (host, replace = false) => {
 
     const kind = path.basename(path.dirname(dir));
     const id = path.basename(dir.trim());
+    const sortId = data.id ? data.id : id;
     const title = data.title;
     const titleLower = title.toLowerCase();
     const pin = data.pin;
-    const sortId = data.id ? data.id : id;
-    const [year, month, day] = id.split("-");
+    const [year, month, day] = sortId.split("-");
     const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
     const date = { year, month, day };
     const url = `${host}/${dir}`;
@@ -34,10 +34,10 @@ export default (host, replace = false) => {
     return {
       kind,
       id,
+      sortId,
       title,
       titleLower,
       pin,
-      sortId,
       date,
       url,
       md,
@@ -49,6 +49,8 @@ export default (host, replace = false) => {
   posts.sort((a, b) =>
     b.sortId.localeCompare(a.sortId, undefined, { numeric: true }),
   );
+
+  posts.forEach((v) => delete v.sortId);
 
   const data = {
     posts: _.mapValues(_.groupBy(posts, "kind"), (p) =>
