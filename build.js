@@ -4,18 +4,7 @@ import { glob } from "glob";
 import _ from "lodash";
 import matter from "gray-matter";
 
-export default (dev) => {
-  const { posts, album } = generate(
-    dev
-      ? "d:/dev/posts"
-      : "https://raw.githubusercontent.com/kg55kmr/posts/main"
-  );
-
-  fs.writeFileSync("public/posts.json", posts);
-  fs.writeFileSync("public/album.json", album);
-};
-
-function generate(base) {
+export default (base) => {
   const reSlideshow = /<slideshow( id="(.*)")* \/>/g;
   const dirs = glob.sync("data/*/*");
 
@@ -111,4 +100,4 @@ function generate(base) {
 
     return slideshows;
   }
-}
+};
