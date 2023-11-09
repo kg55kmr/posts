@@ -4,17 +4,28 @@ import { glob } from "glob";
 import _ from "lodash";
 import matter from "gray-matter";
 
-export default (host, replace = false) => {
+export default (dev) => {
+  const { posts, album } = generate(
+    dev
+      ? "d:/dev/posts"
+      : "https://raw.githubusercontent.com/kg55kmr/posts/main"
+  );
+
+  fs.writeFileSync("public/posts.json", posts);
+  fs.writeFileSync("public/album.json", album);
+};
+
+function generate(base) {
   const reSlideshow = /<slideshow( id="(.*)")* \/>/g;
   const dirs = glob.sync("data/*/*");
 
   fs.mkdirSync("public", { recursive: true });
 
   let posts = dirs.map((dir) => {
-    if (replace) dir = dir.replaceAll("\\", "/");
+    dir = dir.replaceAll("\\", "/");
 
     const { data, content } = matter(
-      fs.readFileSync(dir + "/index.md", "utf8"),
+      fs.readFileSync(dir + "/index.md", "utf8")
     );
 
     const kind = path.basename(path.dirname(dir));
@@ -26,7 +37,7 @@ export default (host, replace = false) => {
     const [year, month, day] = sortId.split("-");
     const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
     const date = { year, month, day };
-    const url = `${host}/${dir}`;
+    const url = `${base}/${dir}`;
     const md = `${url}/index.md`;
     const thumbnail = thumbnailExists ? `${url}/thumbnail.jpg` : undefined;
     const slideshows = extractSlideshows(kind, id, content);
@@ -47,16 +58,16 @@ export default (host, replace = false) => {
   });
 
   posts.sort((a, b) =>
-    b.sortId.localeCompare(a.sortId, undefined, { numeric: true }),
+    b.sortId.localeCompare(a.sortId, undefined, { numeric: true })
   );
 
   posts.forEach((v) => delete v.sortId);
 
   const data = {
     posts: _.mapValues(_.groupBy(posts, "kind"), (p) =>
-      _.groupBy(p, (p) => (p.pin ? "pin" : "items")),
+      _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
     ),
-    host: `${host}/data`,
+    host: `${base}/data`,
   };
 
   const album = [
@@ -100,4 +111,4 @@ export default (host, replace = false) => {
 
     return slideshows;
   }
-};
+}
