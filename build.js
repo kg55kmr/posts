@@ -8,7 +8,9 @@ import { fileURLToPath } from "url";
 const wd = path.dirname(fileURLToPath(import.meta.url));
 
 export default (base) => {
-  const dirs = glob.sync("data/*/*", { cwd: wd });
+  const dirs = glob.sync("data/*/*", {
+    cwd: wd,
+  });
 
   let posts = dirs.map((item) => {
     const { data, content } = matter(
@@ -38,7 +40,6 @@ export default (base) => {
       titleLower,
       pin,
       date,
-      url,
       md,
       thumbnail,
       slideshows,
@@ -56,17 +57,27 @@ export default (base) => {
     .map((post) => ({ ...post }));
   posts.forEach((v) => delete v.slideshows);
 
-  const postsByKind = _.groupBy(posts, (v) => v.kind);
   const postsGrouped = {
-    posts: _.mapValues(postsByKind, (p) =>
-      _.groupBy(p, (p) => (p.pin ? "pin" : "items"))
-    ),
+    posts: _(posts)
+      .groupBy((v) => v.kind)
+      .mapValues((p) => _.groupBy(p, (p) => (p.pin ? "pin" : "items")))
+      .value(),
     host: `${base}/data`,
   };
-  const latestPosts = _.mapValues(postsByKind, (p) => {
-    const result = p.slice(0, 5).map((v) => ({ ...v }));
-    result.forEach((v) => delete v.titleLower);
-    return result;
+
+  const latestPosts = _.mapValues(postsGrouped.posts, ({ items, pin }) => {
+    const removeKeys = (obj) => {
+      const result = { ...obj };
+
+      delete result.titleLower;
+      delete result.pin;
+      return result;
+    };
+
+    return {
+      items: items.slice(0, 5).map(removeKeys),
+      pin: pin?.map(removeKeys),
+    };
   });
 
   return {
