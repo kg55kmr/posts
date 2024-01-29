@@ -13,7 +13,7 @@ async function uploadFiles(localPath, remotePath) {
   const remoteImages = new Map(
     await imagekit
       .listFiles({ path: remotePath })
-      .then((r) => r.map((item) => [item.name, item.size]))
+      .then((r) => r.map((item) => [item.name, item.size])),
   );
 
   const localImages = await fs.readdir(localPath);

@@ -2,7 +2,7 @@ import fs from "fs";
 import build from "./build.js";
 
 const { posts, latestPosts, album } = build(
-  "https://raw.githubusercontent.com/kg55kmr/posts/main"
+  "https://raw.githubusercontent.com/kg55kmr/posts/main",
 );
 
 fs.mkdirSync("public", { recursive: true });
