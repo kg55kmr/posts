@@ -52,4 +52,5 @@ for (const dir of dirs) {
 
   const remotePath = ["posts", kind, id].join("/");
   await uploadFiles(dir, remotePath);
+  await fs.rm(dir, { recursive: true, force: true });
 }
