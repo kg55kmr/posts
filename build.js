@@ -14,7 +14,7 @@ export default (base) => {
 
   let posts = dirs.map((item) => {
     const { data, content } = matter(
-      fs.readFileSync(path.resolve(wd, item, "index.md"), "utf8"),
+      fs.readFileSync(path.resolve(wd, item, "index.md"), "utf8")
     );
     const kind = path.basename(path.dirname(item));
     const id = path.basename(item.trim());
@@ -24,12 +24,11 @@ export default (base) => {
     const pin = data.pin;
     const [year, month, day] = sortId.split("-");
     const thumbnailExists = fs.existsSync(
-      path.resolve(wd, item, "thumbnail.jpg"),
+      path.resolve(wd, item, "thumbnail.jpg")
     );
     const date = { year, month, day };
-    const url = `${base}/${item}`;
-    const md = `${url}/index.md`;
-    const thumbnail = thumbnailExists ? `${url}/thumbnail.jpg` : undefined;
+    const md = "index.md";
+    const thumbnail = thumbnailExists;
     const slideshows = extractSlideshows(kind, id, content);
 
     return {
@@ -47,7 +46,7 @@ export default (base) => {
   });
 
   posts.sort((a, b) =>
-    b.sortId.localeCompare(a.sortId, undefined, { numeric: true }),
+    b.sortId.localeCompare(a.sortId, undefined, { numeric: true })
   );
 
   posts.forEach((v) => delete v.sortId);
@@ -62,7 +61,6 @@ export default (base) => {
       .groupBy((v) => v.kind)
       .mapValues((p) => _.groupBy(p, (p) => (p.pin ? "pin" : "items")))
       .value(),
-    host: `${base}/data`,
   };
 
   const latestPosts = _.mapValues(postsGrouped.posts, ({ items, pin }) => {
