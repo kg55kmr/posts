@@ -27,8 +27,9 @@ export default (base) => {
       path.resolve(wd, item, "thumbnail.jpg")
     );
     const date = { year, month, day };
-    const md = "index.md";
-    const thumbnail = thumbnailExists;
+    const url = `${base}/${item}`;
+    const md = `${url}/index.md`;
+    const thumbnail = thumbnailExists ? `${url}/thumbnail.jpg` : undefined;
     const slideshows = extractSlideshows(kind, id, content);
 
     return {
@@ -61,6 +62,7 @@ export default (base) => {
       .groupBy((v) => v.kind)
       .mapValues((p) => _.groupBy(p, (p) => (p.pin ? "pin" : "items")))
       .value(),
+    host: `${base}/data`,
   };
 
   const latestPosts = _.mapValues(postsGrouped.posts, ({ items, pin }) => {
