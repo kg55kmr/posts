@@ -6,4 +6,4 @@ title: Відкриття дитячого майданчика літнього
 
 <slideshow />
 
-<youtube id="0RJXxHU5HC0" />
+<youtube id="JQT2FWxnJUo" />
