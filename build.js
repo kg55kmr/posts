@@ -1,7 +1,7 @@
 import fs from "fs";
 import process from "./process.js";
 
-const { posts, latestPosts, album } = process(
+const { posts, latestPosts, album } = await process(
   "https://raw.githubusercontent.com/kg55kmr/posts/main"
 );
 

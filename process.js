@@ -1,5 +1,5 @@
-import fs from "fs";
 import path from "path";
+import { access, readFile } from "fs/promises";
 import { glob } from "glob";
 import _ from "lodash";
 import matter from "gray-matter";
@@ -7,47 +7,48 @@ import { fileURLToPath } from "url";
 
 const wd = path.dirname(fileURLToPath(import.meta.url));
 
-export default () => {
+export default async () => {
   const dirs = glob.sync("data/*/*", {
     cwd: wd,
   });
 
-  let posts = dirs.map((item) => {
-    const { data, content } = matter(
-      fs.readFileSync(path.resolve(wd, item, "index.md"), "utf8")
-    );
+  let posts = await Promise.all(
+    dirs.map(async (item) => {
+      const { data, content } = matter(
+        await readFile(path.resolve(wd, item, "index.md"), "utf8")
+      );
 
-    item = item.replaceAll("\\", "/");
+      item = item.replaceAll("\\", "/");
 
-    const kind = path.basename(path.dirname(item));
-    const id = path.basename(item.trim());
-    const sortId = data.id ? data.id : id;
-    const title = data.title;
-    const titleLower = title.toLowerCase();
-    const pin = data.pin;
-    const [year, month, day] = sortId.split("-");
-    const thumbnailExists = fs.existsSync(
-      path.resolve(wd, item, "thumbnail.jpg")
-    );
-    const date = { year, month, day };
-    const base = `${item}`;
-    const md = `${base}/index.md`;
-    const thumbnail = thumbnailExists ? `${base}/thumbnail.jpg` : undefined;
-    const slideshows = extractSlideshows(kind, id, content);
+      const kind = path.basename(path.dirname(item));
+      const id = path.basename(item.trim());
+      const sortId = data.id ? data.id : id;
+      const title = data.title;
+      const titleLower = title.toLowerCase();
+      const pin = data.pin;
+      const [year, month, day] = sortId.split("-");
+      const date = { year, month, day };
+      const slideshows = extractSlideshows(kind, id, content);
 
-    return {
-      kind,
-      id,
-      sortId,
-      title,
-      titleLower,
-      pin,
-      date,
-      md,
-      thumbnail,
-      slideshows,
-    };
-  });
+      let thumbnailExists = true;
+
+      await access(path.resolve(wd, item, "thumbnail.jpg")).catch(
+        () => (thumbnailExists = false)
+      );
+
+      return {
+        kind,
+        id,
+        sortId,
+        title,
+        titleLower,
+        pin,
+        date,
+        thumbnailExists,
+        slideshows,
+      };
+    })
+  );
 
   posts.sort((a, b) =>
     b.sortId.localeCompare(a.sortId, undefined, { numeric: true })
