@@ -32,9 +32,6 @@ export default (base) => {
     const thumbnail = thumbnailExists ? `${url}/thumbnail.jpg` : undefined;
     const slideshows = extractSlideshows(kind, id, content);
 
-    if (kind === "news")
-      fs.appendFileSync("out.txt", `${day}.${month}.${year}: ${title};\n`);
-
     return {
       kind,
       id,
