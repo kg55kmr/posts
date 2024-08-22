@@ -2,6 +2,7 @@
   "name": "posts",
   "type": "module",
   "scripts": {
+    "d": "vite-node src/build.ts",
     "build": "node .",
     "dev": "node dev.js",
     "format": "prettier --write ."
@@ -13,7 +14,10 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.5.0",
     "imagekit": "^5.1.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "vite-node": "^2.0.5"
   }
 }
