@@ -1,7 +1,7 @@
 import fs from "fs";
-import process from "./process";
+import { processPosts } from "./process";
 
-const { posts, latestPosts, album } = await process();
+const { posts, latestPosts, album } = await processPosts();
 
 fs.writeFileSync("public/posts.json", JSON.stringify(posts));
 fs.writeFileSync("public/latest-posts.json", JSON.stringify(latestPosts));

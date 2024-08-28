@@ -1,6 +1,6 @@
 @echo off
 
-node build.js
+call b.cmd
 
 git add *
 git commit -m publish

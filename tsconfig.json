@@ -5,8 +5,7 @@
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "baseUrl": ".",
-    "paths": { "*": ["node_modules/*"] }
+    "baseUrl": "."
   },
   "include": ["src/**/*"]
 }

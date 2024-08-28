@@ -1,18 +1,16 @@
 import path from "path";
 import { access, readFile } from "fs/promises";
 import { glob } from "glob";
-import _ from "lodash";
+import _, { mapValues } from "lodash";
 import matter from "gray-matter";
 import { fileURLToPath } from "url";
 
 const wd = path.dirname(fileURLToPath(import.meta.url));
 
-export default async () => {
+export async function processPosts() {
   const dirs = glob.sync("../data/*/*", {
     cwd: wd,
   });
-
-  console.log(dirs);
 
   let posts = await Promise.all(
     dirs.map(async (item) => {
@@ -27,7 +25,7 @@ export default async () => {
       const sortId = data.id ? (data.id as string) : id;
       const title = data.title as string;
       const titleLower = title.toLowerCase();
-      const pin = data.pin !== undefined;
+      const pin = data.pin !== undefined ? true : undefined;
       const [year, month, day] = sortId.split("-");
       const date = { year, month, day };
       const slideshows = extractSlideshows(kind, id, content);
@@ -41,47 +39,50 @@ export default async () => {
       return {
         kind,
         id,
-        sortId,
+        sortId: sortId as string | undefined,
         title,
         titleLower,
         pin,
         date,
         thumbnailExists,
-        slideshows,
+        slideshows: slideshows as string[] | undefined,
       };
     })
   );
 
   posts.sort((a, b) =>
-    b.sortId.localeCompare(a.sortId, undefined, { numeric: true })
+    b.sortId!.localeCompare(a.sortId!, undefined, { numeric: true })
   );
 
-  posts = posts.filter((p) => ({ ...p, sortId: "3" }));
-
-  //   posts.forEach((v) => delete v.sortId);
-
   const album = posts
-    .filter((post) => post.kind === "news" && post.slideshows.length > 0)
-    .map((post) => ({ ...post }));
-  //   posts.forEach((v) => delete v.slideshows);
+    .filter((post) => post.kind === "news" && post.slideshows!.length > 0)
+    .map((post) => post);
+
+  posts.forEach((p) => {
+    delete p.sortId;
+    delete p.slideshows;
+  });
 
   const postsGrouped = _(posts)
     .groupBy((v) => v.kind)
-    .mapValues((p) => _.groupBy(p, (p) => (p.pin ? "pin" : "items")))
+    .mapValues((p) => {
+      const pinOrItems = _(p)
+        .groupBy((p) => (p.pin ? "pin" : "items"))
+        .mapValues((p) =>
+          p.map((p) => {
+            delete p.pin;
+            return p;
+          })
+        )
+        .value();
+      return pinOrItems;
+    })
     .value();
 
   const latestPosts = _.mapValues(postsGrouped, ({ items, pin }) => {
-    // const removeKeys = (obj) => {
-    //   const result = { ...obj };
-
-    //   delete result.titleLower;
-    //   delete result.pin;
-    //   return result;
-    // };
-
     return {
-      items: items.slice(0, 5) /*.map(removeKeys)*/,
-      pin: pin /*?.map(removeKeys)*/,
+      items: items.slice(0, 5),
+      pin,
     };
   });
 
@@ -90,7 +91,7 @@ export default async () => {
     latestPosts,
     album,
   };
-};
+}
 
 const reSlideshow = /<slideshow( id="(.*)")* \/>/g;
 

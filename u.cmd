@@ -1,3 +1,1 @@
-@echo off
-
-node upload.js
+@npx tsx src/upload.ts

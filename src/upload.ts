@@ -9,11 +9,11 @@ const imagekit = new ImageKit({
   urlEndpoint: "https://ik.imagekit.io/kg55kmr",
 });
 
-async function uploadFiles(localPath, remotePath) {
+async function uploadFiles(localPath: string, remotePath: string) {
   const remoteImages = new Map(
     await imagekit
       .listFiles({ path: remotePath })
-      .then((r) => r.map((item) => [item.name, item.size])),
+      .then((r) => r.map((item) => [item.name, item.size]))
   );
 
   const localImages = await fs.readdir(localPath);
