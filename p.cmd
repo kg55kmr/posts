@@ -1,5 +1,6 @@
 @echo off
 
+call u.cmd
 call b.cmd
 
 git add *
