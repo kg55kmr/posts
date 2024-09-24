@@ -65,18 +65,7 @@ export async function processPosts() {
 
   const postsGrouped = _(posts)
     .groupBy((v) => v.kind)
-    .mapValues((p) => {
-      const pinOrItems = _(p)
-        .groupBy((p) => (p.pin ? "pin" : "items"))
-        .mapValues((p) =>
-          p.map((p) => {
-            delete p.pin;
-            return p;
-          })
-        )
-        .value();
-      return pinOrItems;
-    })
+    .mapValues((p) => _.groupBy(p, (p) => (p.pin ? "pin" : "items")))
     .value();
 
   const latestPosts = _.mapValues(postsGrouped, ({ items, pin }) => {
