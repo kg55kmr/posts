@@ -1,7 +1,7 @@
 @echo off
 
-call u.cmd
-call b.cmd
+call u.cmd || exit /b
+call b.cmd || exit /b
 
 git add *
 git commit -m publish
