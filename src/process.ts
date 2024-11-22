@@ -56,7 +56,7 @@ export async function processPosts() {
 
   const album = posts
     .filter((post) => post.kind === "news" && post.slideshows!.length > 0)
-    .map((post) => post);
+    .map((post) => ({ ...post }));
 
   posts.forEach((p) => {
     delete p.sortId;
