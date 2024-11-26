@@ -1,21 +1,23 @@
 import path from "path";
 import { access, readFile } from "fs/promises";
-import { glob } from "glob";
-import _, { mapValues } from "lodash";
+import _ from "lodash";
 import matter from "gray-matter";
-import { fileURLToPath } from "url";
+import { fdir } from "fdir";
 
-const wd = path.dirname(fileURLToPath(import.meta.url));
+const root = path.resolve(import.meta.dirname, "../data");
 
 export async function processPosts() {
-  const dirs = glob.sync("../data/*/*", {
-    cwd: wd,
-  });
+  const dirs = await new fdir()
+    .onlyDirs()
+    .withRelativePaths()
+    .filter((p) => p.split(path.sep).length === 3)
+    .crawl(root)
+    .withPromise();
 
   let posts = await Promise.all(
     dirs.map(async (item) => {
       const { data, content } = matter(
-        await readFile(path.resolve(wd, item, "index.md"), "utf8")
+        await readFile(path.resolve(root, item, "index.md"), "utf8")
       );
 
       item = item.replaceAll("\\", "/");
@@ -32,7 +34,7 @@ export async function processPosts() {
 
       let thumbnailExists = true;
 
-      await access(path.resolve(wd, item, "thumbnail.jpg")).catch(
+      await access(path.resolve(root, item, "thumbnail.jpg")).catch(
         () => (thumbnailExists = false)
       );
 
