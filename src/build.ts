@@ -1,4 +1,5 @@
 import fs from "fs";
+
 import { processPosts } from "./process";
 
 const { posts, latestPosts, album } = await processPosts();

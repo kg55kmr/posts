@@ -1,8 +1,8 @@
-import path from "path";
-import { access, readFile } from "fs/promises";
-import _ from "lodash";
-import matter from "gray-matter";
 import { fdir } from "fdir";
+import { access, readFile } from "fs/promises";
+import matter from "gray-matter";
+import _ from "lodash";
+import path from "path";
 
 const root = path.resolve(import.meta.dirname, "../data");
 
@@ -14,7 +14,7 @@ export async function processPosts() {
     .crawl(root)
     .withPromise();
 
-  let posts = await Promise.all(
+  const posts = await Promise.all(
     dirs.map(async (item) => {
       const { data, content } = matter(
         await readFile(path.resolve(root, item, "index.md"), "utf8")
