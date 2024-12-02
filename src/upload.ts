@@ -1,8 +1,8 @@
-import fs from "fs/promises";
-import path from "path";
-import ImageKit from "imagekit";
 import { PromisePool } from "@supercharge/promise-pool";
 import { fdir } from "fdir";
+import fs from "fs/promises";
+import ImageKit from "imagekit";
+import path from "path";
 
 const imagekit = new ImageKit({
   publicKey: "public_l+oSmDAI7phY0X7L/UuRZ0aVNXo=",
@@ -19,18 +19,20 @@ const dirs = await new fdir()
   .withPromise();
 
 for (const dir of dirs) {
-  let [kind, date, id] = dir.split(path.sep);
+  const [kind, date, id] = dir.split(path.sep);
+  let finalId;
+
   switch (true) {
     case id === "_":
-      id = date;
+      finalId = date;
       break;
 
     case id.startsWith("_"):
-      id = `${date}-${id.slice(1)}`;
+      finalId = `${date}-${id.slice(1)}`;
       break;
   }
 
-  const remotePath = ["posts", kind, id].join("/");
+  const remotePath = ["posts", kind, finalId].join("/");
   const localPath = path.resolve(root, dir);
   await uploadFiles(localPath, remotePath);
   await fs.rm(localPath, { recursive: true, force: true });
