@@ -1,1 +1,1 @@
-@npx tsx src/build.ts
+@pnpx tsx src/build.ts

@@ -1,1 +1,1 @@
-@npx tsx watch src/build.ts
+@pnpx tsx watch src/build.ts
