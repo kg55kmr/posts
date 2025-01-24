@@ -1,1 +1,1 @@
-@npx tsx src/upload.ts
+@pnpx tsx src/upload.ts
