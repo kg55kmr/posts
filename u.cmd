@@ -1,1 +1,1 @@
-@pnpx tsx src/upload.ts
+@pnpm exec tsx src/upload.ts
