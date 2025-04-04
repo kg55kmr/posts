@@ -10,4 +10,3 @@ title: "#ШевченкоПроROCKЧелендж"
 
 <youtube id="hMRQH8hpnys" />
 <youtube id="y_sHCUEMwqo" />
-
