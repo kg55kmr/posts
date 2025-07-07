@@ -3,5 +3,5 @@ title: Безпека в побуті
 pin: true
 ---
 
-![](PDF_1.pdf)
-![](PDF_2.pdf)
+![](IMAGE_1.jpg)
+![](IMAGE_2.jpg)
