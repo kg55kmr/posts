@@ -16,5 +16,5 @@ title: Святкування Дня працівників освіти
 
 <slideshow />
 
-<fbvideo id="1518590579335409" />
+<youtube id="rVgF7VGAiFc" />
 <fbvideo id="823323900861579" />
