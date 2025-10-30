@@ -8,4 +8,4 @@ title: Щирі вітання до Дня матері від 1-Б класу
 
 <slideshow />
 
-<fbvideo id="1373313457313481" />
+<youtube id="-obzH1OCrBo" />

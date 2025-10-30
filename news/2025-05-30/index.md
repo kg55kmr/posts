@@ -22,4 +22,4 @@ title: Свято Останнього дзвоника
 
 <slideshow />
 
-<fbvideo id="1403015370884934" />
+<youtube id="61B4g7PQcFc" />
