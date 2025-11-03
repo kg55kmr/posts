@@ -10,9 +10,9 @@ title: Cвяткування Дня української писемності 
 
 Разом творимо мовну культуру — від найменших до найстарших! 💙💛
 
-<fbvideo id="1094923312528803" />
-<fbvideo id="1162070359190612" />
-<fbvideo id="1353495409516127" />
-<fbvideo id="664906406499845" />
-<fbvideo id="1896314800918682" />
-<fbvideo id="1452337145854070" />
+<fbvideo id="1094923312528803" aspectRatio="9/16" />
+<fbvideo id="1162070359190612" aspectRatio="9/16" />
+<fbvideo id="1353495409516127" aspectRatio="9/16" />
+<fbvideo id="664906406499845" aspectRatio="9/16" />
+<fbvideo id="1896314800918682" aspectRatio="9/16" />
+<fbvideo id="1452337145854070" aspectRatio="9/16" />
