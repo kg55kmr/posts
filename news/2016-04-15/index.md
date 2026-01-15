@@ -12,5 +12,5 @@ title: Україна для нас. Ми для України
 
 <slideshow id="_/72157667322671315" />
 
-<youtube id="6eFKt8Hn8jA" />
-<youtube id="7CKzVGMR3nY" />
+<youtube id="Yrl5w53EeXQ" />
+<youtube id="_HCzT35Qgzc" />

@@ -8,6 +8,6 @@ title: Захід "Новорічний ключик доброти"
 
 <slideshow id="_/72157662503944412" />
 
-<youtube id="7axuWrThsME" />
+<youtube id="SM9-69z62uw" />
 
-<youtube id="dW-0-oDhRvE" />
+<youtube id="lf4OPqY2XTQ" />
