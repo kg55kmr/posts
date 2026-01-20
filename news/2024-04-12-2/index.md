@@ -8,6 +8,6 @@ title: Спортивно обдарований учень 5-Б класу КГ
 
 <slideshow />
 
-<youtube id="jkn26DgWUdY" />
+<youtube id="tfTEl0JQZdU" />
 
-<youtube id="vtPnlesHPkE" />
+<youtube id="bI0EG4B8lok" />

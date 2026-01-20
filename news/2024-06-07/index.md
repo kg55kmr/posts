@@ -6,4 +6,4 @@ title: 3 місце у загальному заліку ЛАЙТ-КОНКУРС
 
 ![](image.jpg)
 
-<youtube id="PX3eEXALAog" />
+<youtube id="Ka5sqrpYHas" />
