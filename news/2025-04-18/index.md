@@ -14,4 +14,4 @@ title: "Стрічка Миру: побажання від щирого серц
 
 <slideshow />
 
-<youtube id="L_DvRiarPDM" />
+<youtube id="HAulFDD_OZc" />

@@ -24,4 +24,4 @@ title: "Педагогічна рада на тему «Подолання ос�
 
 <slideshow />
 
-<youtube id="njT41a1AEeM" />
+<youtube id="9Vi_sPWIIQY" />

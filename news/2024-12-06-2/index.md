@@ -10,4 +10,4 @@ title: День Збройних сил України
 
 <slideshow />
 
-<youtube id="6lvAfHPXFBY" />
+<youtube id="qWHgEd-WDuY" />

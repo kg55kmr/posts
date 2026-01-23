@@ -6,4 +6,4 @@ title: Єдиний урок "День пам'яті та перемоги на�
 
 <slideshow />
 
-<youtube id="BnJo3xhpiUY" />
+<youtube id="d1kEMUMa0lg" />

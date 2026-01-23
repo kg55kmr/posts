@@ -12,4 +12,4 @@ title: Святкування Дня працівників освіти
 
 <slideshow />
 
-<youtube id="GrxuhlpKKS0" />
+<youtube id="y0q0T-OInpo" />

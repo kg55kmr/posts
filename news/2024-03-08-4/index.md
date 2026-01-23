@@ -8,7 +8,7 @@ title: 210 річниця з Дня народження Тараса Шевче
 
 <slideshow />
 
-<youtube id="7HkEwak3hRY" />
+<youtube id="EXDuFjhP_wQ" />
 
 <youtube id="wwaUSmtoah8" />
 
