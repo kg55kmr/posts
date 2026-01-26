@@ -6,4 +6,4 @@ title: Участь у міському заході «Наука об’єдн�
 
 <slideshow />
 
-<youtube id="QIG17DmA8mc" />
+<youtube id="OvnCpbceXjM" />

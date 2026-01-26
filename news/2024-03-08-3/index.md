@@ -8,6 +8,6 @@ title: Міжнародний жіночий день
 
 <slideshow />
 
-<youtube id="245GLC2KxEk" />
+<youtube id="mjWpVDuONYI" />
 
-<youtube id="ZO2mSrD-U_o" />
+<youtube id="3CbSmjc1mBA" />

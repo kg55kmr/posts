@@ -23,7 +23,7 @@ title: "Інтерактивний хакатон «#Челендж_А – Я_ �
 
 <slideshow />
 
-<youtube id="72H8cquUbmg" />
-<youtube id="RrUwjeMPtBc" />
-<youtube id="U-NcxA7nZlE" />
-<youtube id="VqFBg0Nxk0M" />
+<youtube id="V1CSxbGBAtk" />
+<youtube id="uFITUsYx8Cc" />
+<youtube id="aJav7pQNivM" />
+<youtube id="XIaFRgnV1h8" />
