@@ -2,9 +2,9 @@
 title: Участь у районному патріотичному челенджу "Вісько сильне духом" до Дня Національної гвардії України
 ---
 
-<youtube id="UcK4MR94kHY" />
+<youtube id="2ov332vg81M" />
 
-<youtube id="b7wj0MSuw74" />
+<youtube id="SH13-c1eH1o" />
 
 <youtube id="8qCqXen70Bw" />
 
