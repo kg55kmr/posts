@@ -26,5 +26,5 @@ title: 🔬✨ Науковий пікнік – 2025 у КГ №55 КМР ✨�
 
 <slideshow />
 
-<youtube id="OLmIRZ1V44s" />
-<youtube id="AW19C7BZBHw" />
+<youtube id="G6bnN-RwjCw" />
+<youtube id="Zvyje8vQq2Y" />

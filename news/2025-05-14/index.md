@@ -14,4 +14,4 @@ title: Науковий пікнік – 2025
 
 <slideshow />
 
-<youtube id="-rj42RaL2eE" />
+<youtube id="p6AqdE-8Tmo" />

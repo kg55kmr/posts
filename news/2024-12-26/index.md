@@ -6,4 +6,4 @@ title: Екскурсія до ПК "Тернівський"
 
 <slideshow />
 
-<youtube id="re14ZvMsTDw" />
+<youtube id="RnQnJxuLCMI" />
