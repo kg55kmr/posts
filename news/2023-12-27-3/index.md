@@ -6,4 +6,4 @@ title: Новорічне свято з аніматорами
 
 <slideshow />
 
-<youtube id="0BGb_BZRmk0" />
+<youtube id="4QayRnF1B9g" />

@@ -15,4 +15,4 @@ title: "Пам'ять про героїв — шлях до майбутньог
 
 <slideshow />
 
-<youtube id="tfALSBYjnC4" />
+<youtube id="qHQoq98i5s8" />
