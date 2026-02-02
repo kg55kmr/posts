@@ -8,5 +8,5 @@ title: "#ШевченкоПроROCKЧелендж"
 
 <slideshow />
 
-<youtube id="hMRQH8hpnys" />
-<youtube id="y_sHCUEMwqo" />
+<youtube id="ILzoeHK2jrQ" />
+<youtube id="u1l5nwktWo4" />
