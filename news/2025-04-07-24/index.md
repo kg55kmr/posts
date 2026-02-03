@@ -7,4 +7,4 @@ title: День здоров'я – свято дружби та спорту
 <slideshow />
 
 <youtube id="gOeklutyFdo" />
-<youtube id="Yp-4-9WA-vc" />
+<youtube id="DpErsU2vcS8" />

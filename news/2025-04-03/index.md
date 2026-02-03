@@ -12,8 +12,8 @@ title: Літературний турнір у 1-Б
 
 <slideshow />
 
-<youtube id="g4EuRZGMpws" />
-<youtube id="Uz3CTB47Xg8" />
-<youtube id="ctduYMnHR0g" />
-<youtube id="AJ6RI3g6G30" />
+<youtube id="Uyrky4R7PcI" />
+<youtube id="mrvHsiCmU28" />
+<youtube id="wJHxZxwbL4E" />
+<youtube id="Stx0n61EiU4" />
 <youtube id="-CANS5BRBeA" />
