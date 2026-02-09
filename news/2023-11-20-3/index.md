@@ -24,15 +24,15 @@ title: "Районний патріотичний челендж «Україн�
 
 <youtube id="PICqykvabEE" />
 
-<youtube id="Tz855tQEdDs" />
+<youtube id="4O9drqPhIz0" />
 
-<youtube id="VhguS49Ze2E" />
+<youtube id="R19v8v9k_5o" />
 
-<youtube id="cg3JmqypUYg" />
+<youtube id="YsKBkyhGMMY" />
 
-<youtube id="iBt4FFHE9mQ" />
+<youtube id="e-6Z6nJ63CA" />
 
-<youtube id="v9uGDjjhb2w" />
+<youtube id="Cy_aIMk8Ncc" />
 
 <youtube id="WKQAWuCHNtU" />
 
@@ -44,4 +44,4 @@ title: "Районний патріотичний челендж «Україн�
 
 <youtube id="K3C4xV_hi2k" />
 
-<youtube id="uOuNbpLK0L8" />
+<youtube id="AK0F-1z7ceY" />

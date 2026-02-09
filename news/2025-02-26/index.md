@@ -6,4 +6,4 @@ title: «Посмішка»
 
 <slideshow />
 
-<youtube id="jQnGPYzZSJw" />
+<youtube id="g_4Ts7PdWmU" />

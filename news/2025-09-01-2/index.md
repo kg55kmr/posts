@@ -14,7 +14,6 @@ title: 📚✨ У КГ №55 КМР розпочався 2025-2026 навчал�
 
 Разом ми сильні, бо ми – українці! 🇺🇦✨
 
-
-<youtube id="Hif7xgiDdbo" />
+<youtube id="NSF3VJ8pAYE" />
 
 <slideshow />

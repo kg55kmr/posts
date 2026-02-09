@@ -21,4 +21,4 @@ title: 🎉 ВІТАЄМО З ПЕРЕМОГОЮ! 🎉
 ![](1.jpg)
 ![](2.jpg)
 
-<youtube id="HVvpaJQHyEM" />
+<youtube id="YJLUNDitB0s" />

@@ -6,12 +6,12 @@ title: Участь у районному патріотичному челен�
 
 <youtube id="SH13-c1eH1o" />
 
-<youtube id="8qCqXen70Bw" />
+<youtube id="Jj0drJLQHpQ" />
 
-<youtube id="98zmVQPGh4s" />
+<youtube id="LOFYJR4DLgQ" />
 
-<youtube id="TaDl7mbJjEs" />
+<youtube id="dLhEh-5aE-s" />
 
-<youtube id="jT15A2tMnpE" />
+<youtube id="_eiQJoMOOYE" />
 
-<youtube id="-nKtOlh6RbE" />
+<youtube id="3F0oszRxELE" />

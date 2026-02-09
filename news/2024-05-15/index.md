@@ -10,9 +10,9 @@ title: Районний патріотичний онлайн–челендж �
 
 <slideshow />
 
-<youtube id="e6pOBTT0NXg" />
-<youtube id="BCDUSAgIp6A" />
-<youtube id="6ThVdy8sbLQ" />
+<youtube id="QWEF0gHXlQM" />
+<youtube id="C2rkfef0Tvo" />
+<youtube id="fHHlgK0e6Cs" />
 <youtube id="MwkGvIj5g-w" />
 <youtube id="ZL7gN3RjJ_Q" />
 <youtube id="gMHLDd20vsQ" />

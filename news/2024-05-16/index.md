@@ -6,4 +6,4 @@ title: День вишиванки
 
 <slideshow />
 
-<youtube id="oXrXJ3GHUDA" />
+<youtube id="G91Wz7q8_Qk" />
