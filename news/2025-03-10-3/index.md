@@ -6,6 +6,6 @@ title: Знайомство першокласників з творчістю �
 
 <slideshow />
 
-<youtube id="pcGxaT1R1aI" />
-<youtube id="PjnB8rNexGg" />
-<youtube id="BfRH3VRGtG8" />
+<youtube id="xTUMiboX-_g" />
+<youtube id="HSl42YgS8ww" />
+<youtube id="1GwDfZjAmhU" />

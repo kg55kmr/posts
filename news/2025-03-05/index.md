@@ -12,4 +12,4 @@ title: "КГ №55 КМР вшановує Кобзаря: заходи до 211
 
 <youtube id="gtvA1LOscyI" />
 
-<youtube id="BqQfZvRhCQk" />
+<youtube id="7Lwv0JAo8mw" />
