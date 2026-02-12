@@ -8,6 +8,3 @@ title: Всеукраїнський літературний дитячо-юна
 
 <fbvideo id="770956288032475" />
 <fbvideo id="1309345926286721" />
-
-<!-- <youtube id="POZjoTioA4M" /> -->
-<!-- <youtube id="NNpTooXBiAY" /> -->
