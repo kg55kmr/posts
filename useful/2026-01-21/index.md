@@ -3,7 +3,7 @@ title: Сильні морози та екстренні відключення 
 ---
 
 <gallery>
-![](1.jpg)
-![](2.jpg)
-![](3.jpg)
+<img src="1.jpg" />
+<img src="2.jpg" />
+<img src="3.jpg" />
 </gallery>
