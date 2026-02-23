@@ -28,8 +28,8 @@ title: Міжнародний день рідної мови
 <fbvideo id="1421503126334421" />
 <fbvideo id="2346933362487972" />
 <fbvideo id="1422395486297339" />
-<fbvideo id="1624264058757320" aspect-ratio="9/16" />
-<fbvideo id="2143442386429045" aspect-ratio="9/16" />
-<fbvideo id="1637477087274380" aspect-ratio="9/16" />
-<fbvideo id="2169031950300141" aspect-ratio="9/16" />
+<fbvideo id="1624264058757320" aspectRatio="9/16" />
+<fbvideo id="2143442386429045" aspectRatio="9/16" />
+<fbvideo id="1637477087274380" aspectRatio="9/16" />
+<fbvideo id="2169031950300141" aspectRatio="9/16" />
 <fbvideo id="25605751479126970" />
