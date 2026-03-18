@@ -2,5 +2,7 @@
 title: Відкриття меморіальної дошки
 ---
 
-![](1.jpg)
-![](2.jpg)
+<gallery>
+<img src="1.jpg" />
+<img src="2.jpg" />
+</gallery>
