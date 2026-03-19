@@ -12,6 +12,6 @@ title: «Крок за кроком — до професії мрії!» 🚀
 
 <slideshow />
 
-<fbvideo id="1661974711649474" />
-<fbvideo id="1403018671580352" />
-<fbvideo id="1966060584264907" />
+<fbvideo id="1661974711649474" aspectRatio="9/16" />
+<fbvideo id="1403018671580352" aspectRatio="9/16" />
+<fbvideo id="1966060584264907" aspectRatio="9/16" />
