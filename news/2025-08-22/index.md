@@ -15,8 +15,8 @@ title: "Навчання з основ протимінної безпеки —
 
 Кожен день навчання поєднував теорію та практичні вправи, щоб педагоги могли відпрацювати знання на конкретних сценаріях і бути готовими діяти в будь-якій ситуації.
 
-<youtube id="o9XmD-kwZJw" />
-<youtube id="raGBGUBsvto" />
-<youtube id="ebZXh1c75ew" />
+<YouTube id="o9XmD-kwZJw" />
+<YouTube id="raGBGUBsvto" />
+<YouTube id="ebZXh1c75ew" />
 
-<slideshow />
+<Carousel />

@@ -6,8 +6,8 @@ title: «Єдиний простір олімпійського руху»
 
 Віримо, що здоровий спосіб життя та олімпійські цінності стануть вашим життєвим кредо!
 
-<slideshow />
+<Carousel />
 
-<youtube id="1r5-QvIfhKs" />
+<YouTube id="1r5-QvIfhKs" />
 
-<youtube id="1XBGm8KyD5s" />
+<YouTube id="1XBGm8KyD5s" />

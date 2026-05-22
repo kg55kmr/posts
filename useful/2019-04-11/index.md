@@ -2,5 +2,5 @@
 title: Собори наших душ
 ---
 
-<pdf src="1.pdf" />
-<pdf src="2.pdf" />
+<Pdf src="1.pdf" />
+<Pdf src="2.pdf" />

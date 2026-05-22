@@ -6,8 +6,8 @@ title: Спортивно обдарований учень 5-Б класу КГ
 
 Пишаємося нашими дітьми.
 
-<slideshow />
+<Carousel />
 
-<youtube id="tfTEl0JQZdU" />
+<YouTube id="tfTEl0JQZdU" />
 
-<youtube id="bI0EG4B8lok" />
+<YouTube id="bI0EG4B8lok" />

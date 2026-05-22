@@ -2,4 +2,4 @@
 title: Новорічний огляд конкурс
 ---
 
-<youtube id="QgbRJSbxY9o" />
+<YouTube id="QgbRJSbxY9o" />

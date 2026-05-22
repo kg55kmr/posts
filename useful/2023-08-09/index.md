@@ -2,4 +2,4 @@
 title: Увага!
 ---
 
-<slideshow />
+<Carousel />

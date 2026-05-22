@@ -2,4 +2,4 @@
 title: Дитячий майданчик літнього дозвілля
 ---
 
-<youtube id="b-yMIqABnMo" />
+<YouTube id="b-yMIqABnMo" />

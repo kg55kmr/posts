@@ -22,14 +22,14 @@ title: Міжнародний день рідної мови
 Наше слово – наша сила!
 Із Днем рідної мови! 💙💛
 
-<slideshow />
+<Carousel />
 
-<fbvideo id="1827326844784206" />
-<fbvideo id="1421503126334421" />
-<fbvideo id="2346933362487972" />
-<fbvideo id="1422395486297339" />
-<fbvideo id="1624264058757320" aspectRatio="9/16" />
-<fbvideo id="2143442386429045" aspectRatio="9/16" />
-<fbvideo id="1637477087274380" aspectRatio="9/16" />
-<fbvideo id="2169031950300141" aspectRatio="9/16" />
-<fbvideo id="25605751479126970" />
+<FBVideo id="1827326844784206" />
+<FBVideo id="1421503126334421" />
+<FBVideo id="2346933362487972" />
+<FBVideo id="1422395486297339" />
+<FBVideo id="1624264058757320" aspectRatio="9/16" />
+<FBVideo id="2143442386429045" aspectRatio="9/16" />
+<FBVideo id="1637477087274380" aspectRatio="9/16" />
+<FBVideo id="2169031950300141" aspectRatio="9/16" />
+<FBVideo id="25605751479126970" />

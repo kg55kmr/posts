@@ -10,4 +10,4 @@ title: "💙💛Маленькі серця у великих традиціях
 
 Слава Україні! 💙💛
 
-<youtube id="QgQpCkFh4bE" />
+<YouTube id="QgQpCkFh4bE" />

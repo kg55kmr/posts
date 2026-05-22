@@ -14,16 +14,16 @@ title: Дитячий табір "Веселка"
 - Великий концерт.
 - Закриття табору.
 
-<slideshow id="_/72157649109639486" />
+<Carousel id="_/72157649109639486" />
 
 ![](1.webp)
 
 Сьогодні ми були справжніми чарівниками, адже оживляли своїми руками звичайну глину!
 
-<gallery>
+<Gallery>
 <img src="2.png" alt="">
 <img src="3.png" alt="">
 <img src="4.png" alt="">
 <img src="5.png" alt="">
 <img src="6.png" alt="">
-</gallery>
+</Gallery>

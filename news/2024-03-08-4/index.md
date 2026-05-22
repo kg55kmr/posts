@@ -6,10 +6,10 @@ title: 210 річниця з Дня народження Тараса Шевче
 
 Нехай кожен із нас знайде час перечитати його вірші, підняти дух українського патріотизму, відчути велич його творчості!
 
-<slideshow />
+<Carousel />
 
-<youtube id="EXDuFjhP_wQ" />
+<YouTube id="EXDuFjhP_wQ" />
 
-<youtube id="IIoYrNQ1pJQ" />
+<YouTube id="IIoYrNQ1pJQ" />
 
-<youtube id="IaDZ4Cu9mro" />
+<YouTube id="IaDZ4Cu9mro" />

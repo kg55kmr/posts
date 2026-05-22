@@ -6,17 +6,17 @@ title: Конкурс читців віршів Шевченка серед уч
 
 Творчість Т. Г. Шевченка — це святиня, якою дорожить і пишається український народ.
 
-<slideshow />
+<Carousel />
 
-<youtube id="ThsKYBHOk1A" />
+<YouTube id="ThsKYBHOk1A" />
 
-<youtube id="8sGSc_EDYg0" />
+<YouTube id="8sGSc_EDYg0" />
 
-<youtube id="RUv2D2uNhnI" />
+<YouTube id="RUv2D2uNhnI" />
 
-<gallery>
+<Gallery>
 <img src="1.jpg" alt="">
 <img src="2.jpg" alt="">
 <img src="3.jpg" alt="">
 <img src="4.jpg" alt="">
-</gallery>
+</Gallery>

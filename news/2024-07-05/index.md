@@ -2,4 +2,4 @@
 title: Патронат
 ---
 
-<pdf src="patronat.pdf" />
+<Pdf src="patronat.pdf" />

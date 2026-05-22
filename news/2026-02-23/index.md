@@ -14,7 +14,7 @@ title: Рок-концерт «ПоТРИвожимо»
 
 Разом — міцніші. Разом — для майбутнього! 🇺🇦🌟
 
-<slideshow />
+<Carousel />
 
-<fbvideo id="893783376978462" aspectRatio="9/16" />
-<fbvideo id="1788299718505933" aspectRatio="9/16" />
+<FBVideo id="893783376978462" aspectRatio="9/16" />
+<FBVideo id="1788299718505933" aspectRatio="9/16" />

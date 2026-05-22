@@ -2,5 +2,5 @@
 title: Тільки вперед, тільки разом!
 ---
 
-<youtube id="gh-LAL70Tgo" />
-<youtube id="X49_aCcAFz0" />
+<YouTube id="gh-LAL70Tgo" />
+<YouTube id="X49_aCcAFz0" />

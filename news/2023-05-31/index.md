@@ -2,6 +2,6 @@
 title: Привітання з останнім дзвоником
 ---
 
-<youtube id="mjMiKJUvcIU" />
+<YouTube id="mjMiKJUvcIU" />
 
-<youtube id="qKzyTN7L9rU" />
+<YouTube id="qKzyTN7L9rU" />

@@ -2,7 +2,7 @@
 title: Відкриття меморіальної дошки
 ---
 
-<gallery>
+<Gallery>
 <img src="1.jpg" />
 <img src="2.jpg" />
-</gallery>
+</Gallery>

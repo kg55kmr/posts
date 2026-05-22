@@ -2,4 +2,4 @@
 title: Великдень
 ---
 
-<youtube id="kcGJoyd2Czo" />
+<YouTube id="kcGJoyd2Czo" />

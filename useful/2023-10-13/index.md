@@ -2,4 +2,4 @@
 title: Види вибухових пристроїв
 ---
 
-<pdf src="info.pdf" />
+<Pdf src="info.pdf" />

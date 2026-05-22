@@ -2,4 +2,4 @@
 title: Covid-19
 ---
 
-<youtube id="-L2ConlSuKc" />
+<YouTube id="-L2ConlSuKc" />

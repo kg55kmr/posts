@@ -8,6 +8,6 @@ title: Останній дзвоник
 
 Миру всім, добра, міцного здоров’я та успіхів!
 
-<slideshow />
+<Carousel />
 
-<youtube id="8NhNiUUA8ug" />
+<YouTube id="8NhNiUUA8ug" />

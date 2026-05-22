@@ -2,4 +2,4 @@
 title: Корисна інформація
 ---
 
-<pdf src="info.pdf" />
+<Pdf src="info.pdf" />

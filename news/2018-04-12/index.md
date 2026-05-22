@@ -2,4 +2,4 @@
 title: Флешмоб у рамках міського проекту «Сталеве серце України»
 ---
 
-<youtube id="ZmcpcW_Bx0g" />
+<YouTube id="ZmcpcW_Bx0g" />

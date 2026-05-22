@@ -10,10 +10,10 @@ title: Літературний турнір у 1-Б
 
 Разом ми виховуємо майбутнє покоління читачів та читачок і поціновувачів української літератури!
 
-<slideshow />
+<Carousel />
 
-<youtube id="Uyrky4R7PcI" />
-<youtube id="mrvHsiCmU28" />
-<youtube id="wJHxZxwbL4E" />
-<youtube id="Stx0n61EiU4" />
-<youtube id="M1Md8QgiIfM" />
+<YouTube id="Uyrky4R7PcI" />
+<YouTube id="mrvHsiCmU28" />
+<YouTube id="wJHxZxwbL4E" />
+<YouTube id="Stx0n61EiU4" />
+<YouTube id="M1Md8QgiIfM" />

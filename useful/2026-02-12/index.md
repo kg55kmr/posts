@@ -2,8 +2,8 @@
 title: Важлива інформація
 ---
 
-<gallery>
+<Gallery>
 <img src="1.jpg" />
 <img src="2.jpg" />
 <img src="3.jpg" />
-</gallery>
+</Gallery>

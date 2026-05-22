@@ -2,4 +2,4 @@
 title: До уваги батьків майбутніх першокласників!
 ---
 
-<pdf src="text.pdf" />
+<Pdf src="text.pdf" />

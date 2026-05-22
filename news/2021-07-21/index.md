@@ -101,6 +101,6 @@ _**Суворо дотримуйтесь правил**_
 
 **Гарного вам відпочинку!**
 
-<youtube id="kTCENmF3ACA" />
+<YouTube id="kTCENmF3ACA" />
 
-<youtube id="M-XRbJiKh4Y" />
+<YouTube id="M-XRbJiKh4Y" />

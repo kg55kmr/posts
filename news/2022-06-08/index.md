@@ -14,6 +14,6 @@ title: ОНЛАЙН-СВЯТО ОСТАННІЙ ДЗВОНИК - 2022
 
 Миру всім, добра, міцного здоров’я та успіхів!
 
-<youtube id="tPtTvR2FDys" />
+<YouTube id="tPtTvR2FDys" />
 
-<slideshow />
+<Carousel />

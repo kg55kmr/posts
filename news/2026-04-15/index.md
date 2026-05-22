@@ -2,4 +2,4 @@
 title: Міська природоохоронна акція "Збережемо первоцвіти - 2026"
 ---
 
-<youtube id="ljiSKX43MFg" />
+<YouTube id="ljiSKX43MFg" />

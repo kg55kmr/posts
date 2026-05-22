@@ -4,8 +4,8 @@ title: ІХ Всеукраїнська акція «Happy Няв для Мурч
 
 У КГ №55 КМР із 26 лютого по 26 березня проведено потужну волонтерську роботу до ІХ Всеукраїнської акції «Happy Няв для Мурчика». Дякуємо нашим учням, батькам, педагогам за підтримку та допомогу.
 
-<slideshow />
+<Carousel />
 
-<youtube id="vPm7iiD9PXI" />
+<YouTube id="vPm7iiD9PXI" />
 
-<youtube id="gjrRjcqyRdU" />
+<YouTube id="gjrRjcqyRdU" />

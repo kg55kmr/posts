@@ -2,4 +2,4 @@
 title: Новорічна історія
 ---
 
-<youtube id="SlhUaVRh4h8" />
+<YouTube id="SlhUaVRh4h8" />

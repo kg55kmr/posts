@@ -2,4 +2,4 @@
 title: Важлива інформація
 ---
 
-<slideshow />
+<Carousel />

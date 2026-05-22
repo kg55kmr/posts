@@ -2,4 +2,4 @@
 title: Скажи "НІ" булінгу
 ---
 
-<youtube id="hBOYNGu-9e8" />
+<YouTube id="hBOYNGu-9e8" />

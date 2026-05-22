@@ -8,10 +8,10 @@ title: День працівників освіти
 
 Із нагоди Дня працівників освіти відбулося нагородження.
 
-<slideshow />
+<Carousel />
 
-<youtube id="ojukP_Yq9Dw" />
+<YouTube id="ojukP_Yq9Dw" />
 
-<youtube id="a311moiC33c" />
+<YouTube id="a311moiC33c" />
 
-<youtube id="EOiI2S0Mg4M" />
+<YouTube id="EOiI2S0Mg4M" />

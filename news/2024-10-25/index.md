@@ -2,4 +2,4 @@
 title: З Днем української писемності на мови
 ---
 
-<youtube id="b0_Mr26SuO0" />
+<YouTube id="b0_Mr26SuO0" />

@@ -2,4 +2,4 @@
 title: Літня школа безпеки
 ---
 
-<slideshow />
+<Carousel />

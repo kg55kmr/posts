@@ -2,4 +2,4 @@
 title: Благоустрій
 ---
 
-<youtube id="irvGvJm8zEs" />
+<YouTube id="irvGvJm8zEs" />

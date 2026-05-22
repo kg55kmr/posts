@@ -2,6 +2,6 @@
 title: Флешмоб "#ШевченкоВголос"
 ---
 
-<fbvideo id="926734936756862" />
+<FBVideo id="926734936756862" />
 
-<slideshow />
+<Carousel />

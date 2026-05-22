@@ -6,7 +6,7 @@ title: "#ШевченкоПроROCKЧелендж"
 
 Також проходять тематичні конкурси та виставки, де учні презентують свої творчі роботи, натхнені його творчістю.
 
-<slideshow />
+<Carousel />
 
-<youtube id="ILzoeHK2jrQ" />
-<youtube id="u1l5nwktWo4" />
+<YouTube id="ILzoeHK2jrQ" />
+<YouTube id="u1l5nwktWo4" />
