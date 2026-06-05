@@ -12,3 +12,5 @@ title: "Білі крила скорботи: долучаємось до акц
 
 <YouTube id="uzhDqTLsLa0" />
 <YouTube id="v8ZAljOqMWE" />
+
+<Carousel />
