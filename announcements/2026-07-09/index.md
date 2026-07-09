@@ -3,4 +3,5 @@ title: Вакансії
 pin: true
 ---
 
-![](image.jpg)
+![](1.jpg)
+![](2.jpg)
