@@ -16,5 +16,4 @@ title: Рок-концерт «ПоТРИвожимо»
 
 <Carousel />
 
-<FBVideo id="893783376978462" aspectRatio="9/16" />
-<FBVideo id="1788299718505933" aspectRatio="9/16" />
+<FBVideo id="893783376978462, 1788299718505933" />
