@@ -12,4 +12,4 @@ title: 🌈 У дитячому просторі «Посмішка» Криво
 
 <Carousel />
 
-<FBVideo id="1051677941213406" ar="3:4">
+<YouTube id="HT79AzfVIVo">
