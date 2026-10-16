@@ -1,6 +1,6 @@
 @echo off
 
-call pnpm -C ../kg55kmr -r posts || exit /b
+call pnpm -C ../kg55kmr --filter posts build || exit /b
 
 git add *
 git commit -m update
